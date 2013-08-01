@@ -1,0 +1,5 @@
+default/*
+wordpress-trunk/*
+wordpress-unit-tests/*
+wp-cli/*
+

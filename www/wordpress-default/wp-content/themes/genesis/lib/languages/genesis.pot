@@ -1,0 +1,4393 @@
+# The Genesis 2.0.0 Translation Master File
+# Copyright (C) 2013 StudioPress
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesis v2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-06-25 14:39:47+0000\n"
+"Report-Msgid-Bugs-To: StudioPress <translations@studiopress.com>\n"
+"Last-Translator: StudioPress <translations@studiopress.com>\n"
+"Language-Team: StudioPress <translations@studiopress.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:27
+#@ genesis
+msgid "Not found, error 404"
+msgstr ""
+
+#: 404.php:32
+#, php-format
+#@ genesis
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
+msgstr ""
+
+#: 404.php:39
+#, php-format
+#@ genesis
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
+msgstr ""
+
+#: 404.php:41
+#: lib/structure/post.php:335
+#: page_archive.php:30
+#@ genesis
+msgid "Pages:"
+msgstr ""
+
+#: 404.php:46
+#: page_archive.php:35
+#@ genesis
+msgid "Categories:"
+msgstr ""
+
+#: 404.php:51
+#: page_archive.php:40
+#@ genesis
+msgid "Authors:"
+msgstr ""
+
+#: 404.php:56
+#: page_archive.php:45
+#@ genesis
+msgid "Monthly:"
+msgstr ""
+
+#: 404.php:61
+#: page_archive.php:50
+#@ genesis
+msgid "Recent Posts:"
+msgstr ""
+
+#: comments.php:18
+#@ genesis
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:46
+#: lib/admin/cpt-archive-settings.php:47
+#: lib/admin/cpt-archive-settings.php:138
+#: lib/admin/cpt-archive-settings.php:246
+#: lib/admin/cpt-archive-settings.php:252
+#: lib/admin/term-meta.php:45
+#@ genesis
+msgid "Archive Settings"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:55
+#@ genesis
+msgid "Archive"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:139
+#: lib/admin/cpt-archive-settings.php:258
+#: lib/admin/cpt-archive-settings.php:264
+#: lib/admin/import-export.php:213
+#: lib/admin/seo-settings.php:42
+#: lib/admin/seo-settings.php:169
+#: lib/admin/seo-settings.php:211
+#@ genesis
+msgid "SEO Settings"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:140
+#: lib/admin/cpt-archive-settings.php:270
+#: lib/admin/cpt-archive-settings.php:276
+#: lib/admin/inpost-metaboxes.php:214
+#: lib/admin/term-meta.php:172
+#: lib/admin/user-meta.php:247
+#@ genesis
+msgid "Layout Settings"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:158
+#, php-format
+#@ genesis
+msgid "View the <a href=\"%s\">%s archive</a>."
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:160
+#: lib/admin/term-meta.php:49
+#@ genesis
+msgid "Archive Headline"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:162
+#: lib/admin/term-meta.php:52
+#@ genesis
+msgid "Leave empty if you do not want to display a headline."
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:164
+#: lib/admin/term-meta.php:56
+#@ genesis
+msgid "Archive Intro Text"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:166
+#: lib/admin/term-meta.php:59
+#@ genesis
+msgid "Leave empty if you do not want to display any intro text."
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:183
+#: lib/admin/inpost-metaboxes.php:46
+#: lib/admin/term-meta.php:102
+#: lib/admin/user-meta.php:187
+#@ genesis
+msgid "Custom Document Title"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:186
+#: lib/admin/term-meta.php:109
+#: lib/admin/user-meta.php:194
+#@ genesis
+msgid "Meta Description"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:189
+#: lib/admin/term-meta.php:116
+#: lib/admin/user-meta.php:201
+#@ genesis
+msgid "Meta Keywords"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:191
+#: lib/admin/term-meta.php:119
+#: lib/admin/user-meta.php:204
+#@ genesis
+msgid "Comma separated list"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:193
+#@ genesis
+msgid "Robots Meta Tags:"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:196
+#: lib/admin/cpt-archive-settings.php:199
+#: lib/admin/cpt-archive-settings.php:202
+#, php-format
+#@ genesis
+msgid "Apply %s to this archive"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:224
+#: lib/admin/inpost-metaboxes.php:235
+#: lib/admin/term-meta.php:181
+#: lib/admin/user-meta.php:257
+#, php-format
+#@ genesis
+msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:231
+#: lib/admin/inpost-metaboxes.php:242
+#@ genesis
+msgid "Custom Body Class"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:247
+#: lib/admin/cpt-archive-settings.php:259
+#: lib/admin/cpt-archive-settings.php:271
+#@ genesis
+msgid "Some help content here"
+msgstr ""
+
+#: lib/admin/import-export.php:45
+#@ genesis
+msgid "Genesis - Import/Export"
+msgstr ""
+
+#: lib/admin/import-export.php:46
+#: lib/admin/import-export.php:67
+#: lib/admin/import-export.php:83
+#@ genesis
+msgid "Import/Export"
+msgstr ""
+
+#: lib/admin/import-export.php:68
+#@ genesis
+msgid "This allows you to import or export Genesis Settings."
+msgstr ""
+
+#: lib/admin/import-export.php:69
+#@ genesis
+msgid "This is specific to Genesis settings and does not includes posts, pages, or images, which is what the built-in WordPress import/export menu does."
+msgstr ""
+
+#: lib/admin/import-export.php:70
+#@ genesis
+msgid "It also does not include other settings for plugins, widgets, or post/page/term/user specific settings."
+msgstr ""
+
+#: lib/admin/import-export.php:73
+#: lib/admin/import-export.php:88
+#@ genesis
+msgid "Import"
+msgstr ""
+
+#: lib/admin/import-export.php:74
+#, php-format
+#@ genesis
+msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
+msgstr ""
+
+#: lib/admin/import-export.php:75
+#@ genesis
+msgid "Once you upload an import file, it will automatically overwrite your existing settings."
+msgstr ""
+
+#: lib/admin/import-export.php:75
+#@ genesis
+msgid "This cannot be undone"
+msgstr ""
+
+#: lib/admin/import-export.php:78
+#: lib/admin/import-export.php:93
+#@ genesis
+msgid "Export"
+msgstr ""
+
+#: lib/admin/import-export.php:79
+#, php-format
+#@ genesis
+msgid "You can export your Genesis-related settings to back them up, or copy them to another site. Child themes and plugins may add their own checkboxes to the list. The settings are exported in %s format."
+msgstr ""
+
+#: lib/admin/import-export.php:79
+#@ genesis
+msgid "JavaScript Object Notation"
+msgstr ""
+
+#: lib/admin/import-export.php:79
+#@ genesis
+msgid "JSON"
+msgstr ""
+
+#: lib/admin/import-export.php:99
+#: lib/admin/seo-settings.php:242
+#: lib/admin/theme-settings.php:348
+#@ genesis
+msgid "For more information:"
+msgstr ""
+
+#: lib/admin/import-export.php:100
+#: lib/admin/seo-settings.php:243
+#: lib/admin/theme-settings.php:349
+#@ genesis
+msgid "Get Support"
+msgstr ""
+
+#: lib/admin/import-export.php:101
+#: lib/admin/seo-settings.php:244
+#: lib/admin/theme-settings.php:350
+#@ genesis
+msgid "Genesis Snippets"
+msgstr ""
+
+#: lib/admin/import-export.php:102
+#: lib/admin/seo-settings.php:245
+#: lib/admin/theme-settings.php:351
+#@ genesis
+msgid "Genesis Tutorials"
+msgstr ""
+
+#: lib/admin/import-export.php:128
+#@ genesis
+msgid "Import Genesis Settings File"
+msgstr ""
+
+#: lib/admin/import-export.php:130
+#, php-format
+#@ genesis
+msgid "Upload the data file (%s) from your computer and we'll import your settings."
+msgstr ""
+
+#: lib/admin/import-export.php:131
+#@ genesis
+msgid "Choose the file from your computer and click \"Upload file and Import\""
+msgstr ""
+
+#: lib/admin/import-export.php:136
+#, php-format
+#@ genesis
+msgid "Upload File: (Maximum Size: %s)"
+msgstr ""
+
+#: lib/admin/import-export.php:139
+#@ genesis
+msgid "Upload File and Import"
+msgstr ""
+
+#: lib/admin/import-export.php:147
+#@ genesis
+msgid "Export Genesis Settings File"
+msgstr ""
+
+#: lib/admin/import-export.php:149
+#, php-format
+#@ genesis
+msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
+msgstr ""
+
+#: lib/admin/import-export.php:150
+#@ genesis
+msgid "Once you have saved the download file, you can use the import function on another site to import this data."
+msgstr ""
+
+#: lib/admin/import-export.php:157
+#@ genesis
+msgid "Download Export File"
+msgstr ""
+
+#: lib/admin/import-export.php:189
+#@ genesis
+msgid "Settings successfully imported."
+msgstr ""
+
+#: lib/admin/import-export.php:191
+#@ genesis
+msgid "There was a problem importing your settings. Please try again."
+msgstr ""
+
+#: lib/admin/import-export.php:209
+#: lib/admin/theme-settings.php:57
+#: lib/admin/theme-settings.php:58
+#: lib/admin/theme-settings.php:222
+#: lib/admin/theme-settings.php:297
+#@ genesis
+msgid "Theme Settings"
+msgstr ""
+
+#: lib/admin/import-export.php:235
+#@ genesis
+msgid "No export options available."
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:29
+#: lib/admin/term-meta.php:98
+#: lib/admin/user-meta.php:182
+#@ genesis
+msgid "Theme SEO Settings"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:46
+#: lib/admin/inpost-metaboxes.php:49
+#, php-format
+#@ genesis
+msgid "Characters Used: %s"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:49
+#@ genesis
+msgid "Custom Post/Page Meta Description"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:52
+#@ genesis
+msgid "Custom Post/Page Meta Keywords, comma separated"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:55
+#@ genesis
+msgid "Custom Canonical URI"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:58
+#@ genesis
+msgid "Custom Redirect URI"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:63
+#: lib/admin/seo-settings.php:199
+#: lib/admin/seo-settings.php:231
+#: lib/admin/seo-settings.php:266
+#@ genesis
+msgid "Robots Meta Settings"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:67
+#: lib/admin/inpost-metaboxes.php:70
+#: lib/admin/inpost-metaboxes.php:73
+#, php-format
+#@ genesis
+msgid "Apply %s to this post/page"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:141
+#@ genesis
+msgid "Scripts"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:158
+#@ genesis
+msgid "Page-specific Scripts"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:160
+#, php-format
+#@ genesis
+msgid "Suitable for custom tracking, conversion or other page-specific script. Must include %s tags."
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:245
+#@ genesis
+msgid "Custom Post Class"
+msgstr ""
+
+#: lib/admin/seo-settings.php:41
+#@ genesis
+msgid "Genesis - SEO Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:48
+#: lib/admin/theme-settings.php:68
+#: lib/classes/admin.php:105
+#@ genesis
+msgid "Save Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:49
+#: lib/admin/theme-settings.php:69
+#: lib/classes/admin.php:106
+#@ genesis
+msgid "Reset Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:50
+#: lib/admin/theme-settings.php:70
+#: lib/classes/admin.php:107
+#@ genesis
+msgid "Settings saved."
+msgstr ""
+
+#: lib/admin/seo-settings.php:51
+#: lib/admin/theme-settings.php:71
+#: lib/classes/admin.php:108
+#@ genesis
+msgid "Settings reset."
+msgstr ""
+
+#: lib/admin/seo-settings.php:52
+#: lib/admin/theme-settings.php:72
+#: lib/classes/admin.php:109
+#@ genesis
+msgid "Error saving settings."
+msgstr ""
+
+#: lib/admin/seo-settings.php:170
+#@ genesis
+msgid "Genesis SEO (search engine optimization) is polite, and will disable itself when most popular SEO plugins (e.g., All-in-One SEO, WordPress SEO, etc.) are active."
+msgstr ""
+
+#: lib/admin/seo-settings.php:171
+#@ genesis
+msgid "If you don’t see an SEO Settings sub menu, then you probably have another SEO plugin active."
+msgstr ""
+
+#: lib/admin/seo-settings.php:172
+#@ genesis
+msgid "If you see the menu, then opening that menu item will let you set the General SEO settings for your site."
+msgstr ""
+
+#: lib/admin/seo-settings.php:173
+#@ genesis
+msgid "Each page, post, and term will have its own SEO settings as well. The default settings are recommended for most users. If you wish to adjust your SEO settings, the boxes include internal descriptions."
+msgstr ""
+
+#: lib/admin/seo-settings.php:174
+#@ genesis
+msgid "Below you'll find a few succinct notes on the options for each box:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:177
+#: lib/admin/seo-settings.php:216
+#@ genesis
+msgid "Doctitle Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:178
+#@ genesis
+msgid "<strong>Append Site Description</strong> will insert the site description from your General Settings after the title on your home page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:179
+#@ genesis
+msgid "<strong>Append Site Name</strong> will put the site name from the General Settings after the title on inner page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:180
+#@ genesis
+msgid "<strong>Doctitle Append Location</strong> determines which side of the title to add the previously mentioned items."
+msgstr ""
+
+#: lib/admin/seo-settings.php:181
+#@ genesis
+msgid "The <strong>Doctitle Separator</strong> is the character that will go between the title and appended text."
+msgstr ""
+
+#: lib/admin/seo-settings.php:184
+#: lib/admin/seo-settings.php:221
+#: lib/admin/seo-settings.php:264
+#@ genesis
+msgid "Homepage Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:185
+#@ genesis
+msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:186
+#@ genesis
+msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an &lt;h1&gt; tag (the primary heading in HTML)."
+msgstr ""
+
+#: lib/admin/seo-settings.php:187
+#@ genesis
+msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
+msgstr ""
+
+#: lib/admin/seo-settings.php:188
+#@ genesis
+msgid "The home doctitle sets what will appear within the <title></title> tags (unseen in the browser) for the home page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:189
+#@ genesis
+msgid "The home META description and keywords fill in the meta tags for the home page. The META description is the short text blurb that appear in search engine results."
+msgstr ""
+
+#: lib/admin/seo-settings.php:190
+#@ genesis
+msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
+msgstr ""
+
+#: lib/admin/seo-settings.php:191
+#@ genesis
+msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:194
+#: lib/admin/seo-settings.php:226
+#: lib/admin/seo-settings.php:265
+#@ genesis
+msgid "Document Head Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:195
+#@ genesis
+msgid "The Relationship Link Tags are tags added by WordPress that currently have no SEO value but slow your site load down. They're disabled by default, but if you have a specific need&#8212;for a plugin or other non typical use&#8212;then you can enable as needed here."
+msgstr ""
+
+#: lib/admin/seo-settings.php:196
+#@ genesis
+msgid "You can also add support for Windows Live Writer if you use software that supports this and include a shortlink tag if this is required by any third party service."
+msgstr ""
+
+#: lib/admin/seo-settings.php:200
+#@ genesis
+msgid "Noarchive and noindex are explained in the home settings. Here you can select what other parts of the site to apply these options to."
+msgstr ""
+
+#: lib/admin/seo-settings.php:201
+#@ genesis
+msgid "At least one archive should be indexed, but indexing multiple archives will typically result in a duplicate content penalization (multiple pages with identical content look manipulative to search engines)."
+msgstr ""
+
+#: lib/admin/seo-settings.php:202
+#@ genesis
+msgid "For most sites either the home page or blog page (using the blog template) will serve as this index which is why the default is not to index categories, tags, authors, dates, or searches."
+msgstr ""
+
+#: lib/admin/seo-settings.php:205
+#: lib/admin/seo-settings.php:267
+#@ genesis
+msgid "Archives Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:206
+#@ genesis
+msgid "Canonical links will point search engines to the front page of paginated content (search engines have to choose the “preferred link” when there is duplicate content on pages)."
+msgstr ""
+
+#: lib/admin/seo-settings.php:207
+#@ genesis
+msgid "This tells them “this is paged content and the first page starts here” and helps to avoid spreading keywords across multiple pages."
+msgstr ""
+
+#: lib/admin/seo-settings.php:236
+#@ genesis
+msgid "SEO Archives"
+msgstr ""
+
+#: lib/admin/seo-settings.php:263
+#@ genesis
+msgid "Document Title Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:285
+#, php-format
+#@ genesis
+msgid "The document title (%s) is the single most important element in your document source for <abbr title=\"Search engine optimization\">SEO</abbr>. It succinctly informs search engines of what information is contained in the document. The title can, and should, be different on each page, but these options will help you control what it will look like by default."
+msgstr ""
+
+#: lib/admin/seo-settings.php:287
+#@ genesis
+msgid "<strong>By default</strong>, the home page document title will contain the site title, the single post and page document titles will contain the post or page title, the archive pages will contain the archive type, etc."
+msgstr ""
+
+#: lib/admin/seo-settings.php:291
+#, php-format
+#@ genesis
+msgid "Add site description (tagline) to %s on home page?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:296
+#, php-format
+#@ genesis
+msgid "Add site name to %s on inner pages?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:300
+#@ genesis
+msgid "Document Title Additions Location:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:301
+#@ genesis
+msgid "Determines which side the added title text will go on."
+msgstr ""
+
+#: lib/admin/seo-settings.php:305
+#: lib/widgets/featured-page-widget.php:212
+#: lib/widgets/featured-post-widget.php:339
+#: lib/widgets/featured-post-widget.php:369
+#: lib/widgets/user-profile-widget.php:166
+#@ genesis
+msgid "Left"
+msgstr ""
+
+#: lib/admin/seo-settings.php:308
+#: lib/widgets/featured-page-widget.php:213
+#: lib/widgets/featured-post-widget.php:340
+#: lib/widgets/featured-post-widget.php:370
+#: lib/widgets/user-profile-widget.php:167
+#@ genesis
+msgid "Right"
+msgstr ""
+
+#: lib/admin/seo-settings.php:313
+#@ genesis
+msgid "Document Title Separator:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:315
+#@ genesis
+msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
+msgstr ""
+
+#: lib/admin/seo-settings.php:338
+#@ genesis
+msgid "Use semantic HTML5 page and section headings throughout site?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:341
+#, php-format
+#@ genesis
+msgid "HTML5 allows for multiple %s tags throughout the document source, provided they are the primary title for the section in which they appear. However, following this standard may have a marginal negative impact on SEO."
+msgstr ""
+
+#: lib/admin/seo-settings.php:346
+#, php-format
+#@ genesis
+msgid "Which text would you like to be wrapped in %s tags?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:350
+#@ genesis
+msgid "Site Title"
+msgstr ""
+
+#: lib/admin/seo-settings.php:353
+#@ genesis
+msgid "Site Description (Tagline)"
+msgstr ""
+
+#: lib/admin/seo-settings.php:356
+#@ genesis
+msgid "Neither. I'll manually wrap my own text on the homepage"
+msgstr ""
+
+#: lib/admin/seo-settings.php:361
+#@ genesis
+msgid "Homepage Document Title:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:363
+#@ genesis
+msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
+msgstr ""
+
+#: lib/admin/seo-settings.php:367
+#@ genesis
+msgid "Home Meta Description:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:369
+#@ genesis
+msgid "The meta description can be used to determine the text used under the title on search engine results pages."
+msgstr ""
+
+#: lib/admin/seo-settings.php:373
+#@ genesis
+msgid "Home Meta Keywords (comma separated):"
+msgstr ""
+
+#: lib/admin/seo-settings.php:375
+#@ genesis
+msgid "Keywords are generally ignored by Search Engines."
+msgstr ""
+
+#: lib/admin/seo-settings.php:378
+#@ genesis
+msgid "Homepage Robots Meta Tags:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:382
+#: lib/admin/seo-settings.php:385
+#: lib/admin/seo-settings.php:388
+#, php-format
+#@ genesis
+msgid "Apply %s to the homepage?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:391
+#@ genesis
+msgid "Homepage Author"
+msgstr ""
+
+#: lib/admin/seo-settings.php:394
+#, php-format
+#@ genesis
+msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
+msgstr ""
+
+#: lib/admin/seo-settings.php:399
+#@ genesis
+msgid "Select User"
+msgstr ""
+
+#: lib/admin/seo-settings.php:423
+#, php-format
+#@ genesis
+msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
+msgstr ""
+
+#: lib/admin/seo-settings.php:425
+#@ genesis
+msgid "Relationship Link Tags:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:429
+#, php-format
+#@ genesis
+msgid "Adjacent Posts %s link tags"
+msgstr ""
+
+#: lib/admin/seo-settings.php:432
+#@ genesis
+msgid "Windows Live Writer Support:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:436
+#@ genesis
+msgid "Include Windows Live Writer Support Tag?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:439
+#@ genesis
+msgid "Shortlink Tag:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:443
+#@ genesis
+msgid "Include Shortlink tag?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:446
+#@ genesis
+msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
+msgstr ""
+
+#: lib/admin/seo-settings.php:469
+#@ genesis
+msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
+msgstr ""
+
+#: lib/admin/seo-settings.php:473
+#: lib/admin/seo-settings.php:497
+#, php-format
+#@ genesis
+msgid "Apply %s to Category Archives?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:476
+#: lib/admin/seo-settings.php:500
+#, php-format
+#@ genesis
+msgid "Apply %s to Tag Archives?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:479
+#: lib/admin/seo-settings.php:503
+#, php-format
+#@ genesis
+msgid "Apply %s to Author Archives?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:482
+#: lib/admin/seo-settings.php:506
+#, php-format
+#@ genesis
+msgid "Apply %s to Date Archives?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:485
+#: lib/admin/seo-settings.php:509
+#, php-format
+#@ genesis
+msgid "Apply %s to Search Archives?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:488
+#, php-format
+#@ genesis
+msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
+msgstr ""
+
+#: lib/admin/seo-settings.php:492
+#, php-format
+#@ genesis
+msgid "Apply %s to Entire Site?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:512
+#, php-format
+#@ genesis
+msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
+msgstr ""
+
+#: lib/admin/seo-settings.php:516
+#: lib/admin/seo-settings.php:519
+#, php-format
+#@ genesis
+msgid "Apply %s to your site?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:541
+#@ genesis
+msgid "Canonical Paginated Archives"
+msgstr ""
+
+#: lib/admin/seo-settings.php:544
+#@ genesis
+msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
+msgstr ""
+
+#: lib/admin/term-meta.php:124
+#: lib/admin/user-meta.php:209
+#@ genesis
+msgid "Robots Meta"
+msgstr ""
+
+#: lib/admin/term-meta.php:127
+#: lib/admin/term-meta.php:130
+#: lib/admin/term-meta.php:133
+#: lib/admin/user-meta.php:212
+#: lib/admin/user-meta.php:215
+#: lib/admin/user-meta.php:218
+#, php-format
+#@ genesis
+msgid "Apply %s to this archive?"
+msgstr ""
+
+#: lib/admin/term-meta.php:176
+#: lib/admin/user-meta.php:252
+#@ genesis
+msgid "Choose Layout"
+msgstr ""
+
+#: lib/admin/theme-settings.php:88
+#@ genesis
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: lib/admin/theme-settings.php:223
+#@ genesis
+msgid "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme..."
+msgstr ""
+
+#: lib/admin/theme-settings.php:226
+#: lib/admin/theme-settings.php:302
+#: lib/admin/theme-settings.php:382
+#@ genesis
+msgid "Information"
+msgstr ""
+
+#: lib/admin/theme-settings.php:227
+#@ genesis
+msgid "The information box allows you to see the current Genesis theme information and display if desired."
+msgstr ""
+
+#: lib/admin/theme-settings.php:228
+#@ genesis
+msgid "Normally, this should be unchecked. You can also set to enable automatic updates."
+msgstr ""
+
+#: lib/admin/theme-settings.php:229
+#@ genesis
+msgid "This does not mean the updates happen automatically without your permission; it will just notify you that an update is available. You must select it to perform the update."
+msgstr ""
+
+#: lib/admin/theme-settings.php:230
+#@ genesis
+msgid "If you provide an email address and select to notify that email address when the update is available, your site will email you when the update can be performed.No, updates only affect files being updated."
+msgstr ""
+
+#: lib/admin/theme-settings.php:233
+#: lib/admin/theme-settings.php:307
+#: lib/admin/theme-settings.php:387
+#@ genesis
+msgid "Custom Feeds"
+msgstr ""
+
+#: lib/admin/theme-settings.php:234
+#@ genesis
+msgid "If you use Feedburner to handle your rss feed(s) you can use this function to set your site's native feed to redirect to your Feedburner feed."
+msgstr ""
+
+#: lib/admin/theme-settings.php:235
+#@ genesis
+msgid "By filling in the feed links calling for the main site feed, it will display as a link to Feedburner."
+msgstr ""
+
+#: lib/admin/theme-settings.php:236
+#@ genesis
+msgid "By checking the \"Redirect Feed\" box, all traffic to default feed links will be redirected to the Feedburner link instead."
+msgstr ""
+
+#: lib/admin/theme-settings.php:239
+#: lib/admin/theme-settings.php:312
+#: lib/admin/theme-settings.php:388
+#@ genesis
+msgid "Default Layout"
+msgstr ""
+
+#: lib/admin/theme-settings.php:240
+#@ genesis
+msgid "This lets you select the default layout for your entire site. On most of the child themes you'll see these options:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:242
+#@ genesis
+msgid "Content Sidebar"
+msgstr ""
+
+#: lib/admin/theme-settings.php:243
+#@ genesis
+msgid "Sidebar Content"
+msgstr ""
+
+#: lib/admin/theme-settings.php:244
+#@ genesis
+msgid "Sidebar Content Sidebar"
+msgstr ""
+
+#: lib/admin/theme-settings.php:245
+#@ genesis
+msgid "Content Sidebar Sidebar"
+msgstr ""
+
+#: lib/admin/theme-settings.php:246
+#@ genesis
+msgid "Sidebar Sidebar Content"
+msgstr ""
+
+#: lib/admin/theme-settings.php:247
+#: lib/functions/layout.php:59
+#@ genesis
+msgid "Full Width Content"
+msgstr ""
+
+#: lib/admin/theme-settings.php:249
+#@ genesis
+msgid "These options can be extended or limited by the child theme. Additionally, many of the child themes do not allow different layouts on the home page as they have been designed for a specific home page layout."
+msgstr ""
+
+#: lib/admin/theme-settings.php:250
+#@ genesis
+msgid "This layout can also be overridden in the post/page/term layout options on each post/page/term."
+msgstr ""
+
+#: lib/admin/theme-settings.php:253
+#: lib/admin/theme-settings.php:317
+#: lib/admin/theme-settings.php:397
+#@ genesis
+msgid "Breadcrumbs"
+msgstr ""
+
+#: lib/admin/theme-settings.php:254
+#@ genesis
+msgid "This box lets you define where the \"Breadcrumbs\" display. The Breadcrumb is the navigation tool that displays where a visitor is on the site at any given moment."
+msgstr ""
+
+#: lib/admin/theme-settings.php:257
+#: lib/admin/theme-settings.php:322
+#: lib/admin/theme-settings.php:399
+#@ genesis
+msgid "Comments and Trackbacks"
+msgstr ""
+
+#: lib/admin/theme-settings.php:258
+#@ genesis
+msgid "This allows a site wide decision on whether comments and trackbacks (notifications when someone links to your page) are enabled for posts and pages."
+msgstr ""
+
+#: lib/admin/theme-settings.php:259
+#@ genesis
+msgid "If you enable comments or trackbacks here, it can be disabled on an individual post or page. If you disable here, they cannot be enabled on an individual post or page."
+msgstr ""
+
+#: lib/admin/theme-settings.php:262
+#: lib/admin/theme-settings.php:327
+#: lib/admin/theme-settings.php:400
+#@ genesis
+msgid "Content Archives"
+msgstr ""
+
+#: lib/admin/theme-settings.php:263
+#@ genesis
+msgid "In the Genesis Theme Settings you may change the site wide Content Archives options to control what displays in the site's Archives."
+msgstr ""
+
+#: lib/admin/theme-settings.php:264
+#@ genesis
+msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
+msgstr ""
+
+#: lib/admin/theme-settings.php:265
+#@ genesis
+msgid "The first option allows you to display the post content or the post excerpt. The Display post content setting will display the entire post including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
+msgstr ""
+
+#: lib/admin/theme-settings.php:266
+#@ genesis
+msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
+msgstr ""
+
+#: lib/admin/theme-settings.php:267
+#@ genesis
+msgid "The Display post excerpt setting will display the first 55 words of the post after also stripping any included HTML or the manual/custom excerpt added in the post edit screen."
+msgstr ""
+
+#: lib/admin/theme-settings.php:268
+#@ genesis
+msgid "The 'Include post image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
+msgstr ""
+
+#: lib/admin/theme-settings.php:269
+#@ genesis
+msgid "This option should not be used with the post content unless the content is limited to avoid duplicate images."
+msgstr ""
+
+#: lib/admin/theme-settings.php:270
+#@ genesis
+msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
+msgstr ""
+
+#: lib/admin/theme-settings.php:271
+#@ genesis
+msgid "Post Navigation Technique allows you to select one of three navigation methods."
+msgstr ""
+
+#: lib/admin/theme-settings.php:274
+#: lib/admin/theme-settings.php:332
+#@ genesis
+msgid "Blog Page"
+msgstr ""
+
+#: lib/admin/theme-settings.php:275
+#@ genesis
+msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
+msgstr ""
+
+#: lib/admin/theme-settings.php:276
+#@ genesis
+msgid "In the General Settings you can select a specific category to display from the drop down menu, and exclude categories by ID, or even select how many posts you'd like to display on this page."
+msgstr ""
+
+#: lib/admin/theme-settings.php:277
+#@ genesis
+msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
+msgstr ""
+
+#: lib/admin/theme-settings.php:278
+#, php-format
+#@ genesis
+msgid "You can find more on this feature in the <a href=\"%s\" target=\"_blank\">How to Add a Post Category Page tutorial.</a>"
+msgstr ""
+
+#: lib/admin/theme-settings.php:281
+#: lib/admin/theme-settings.php:337
+#: lib/admin/theme-settings.php:404
+#@ genesis
+msgid "Header and Footer Scripts"
+msgstr ""
+
+#: lib/admin/theme-settings.php:282
+#@ genesis
+msgid "This provides you with two fields that will output to the <head></head> of your site and just before the </body>. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
+msgstr ""
+
+#: lib/admin/theme-settings.php:285
+#@ genesis
+msgid "How Home Pages Work"
+msgstr ""
+
+#: lib/admin/theme-settings.php:286
+#@ genesis
+msgid "Most Genesis child themes include a custom home page."
+msgstr ""
+
+#: lib/admin/theme-settings.php:287
+#@ genesis
+msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
+msgstr ""
+
+#: lib/admin/theme-settings.php:288
+#@ genesis
+msgid "This home page is typically setup via widgets in the sidebars for the home page. This can be accessed via the Widgets menu item under Appearance."
+msgstr ""
+
+#: lib/admin/theme-settings.php:289
+#@ genesis
+msgid "Child themes that include this type of home page typically include additional theme-specific tutorials which can be accessed via a sticky post at the top of that child theme support forum."
+msgstr ""
+
+#: lib/admin/theme-settings.php:290
+#@ genesis
+msgid "If your theme uses a custom home page and you want to show the latest posts in a blog format, do not use the blog template. Instead, you need to rename the home.php file to home-old.php instead."
+msgstr ""
+
+#: lib/admin/theme-settings.php:291
+#@ genesis
+msgid "Another common home page is the \"blog\" type home page, which is common to most of the free child themes. This shows your latest posts and requires no additional setup."
+msgstr ""
+
+#: lib/admin/theme-settings.php:292
+#@ genesis
+msgid "The third type of home page is the new dynamic home page. This is common on the newest child themes. It will show your latest posts in a blog type listing unless you put widgets into the home page sidebars."
+msgstr ""
+
+#: lib/admin/theme-settings.php:293
+#@ genesis
+msgid "This setup is preferred because it makes it easier to show a blog on the front page (no need to rename the home.php file) and does not have the confusion of no content on the home page when the theme is initially installed."
+msgstr ""
+
+#: lib/admin/theme-settings.php:342
+#@ genesis
+msgid "Home Pages"
+msgstr ""
+
+#: lib/admin/theme-settings.php:385
+#@ genesis
+msgid "Color Style"
+msgstr ""
+
+#: lib/admin/theme-settings.php:391
+#@ genesis
+msgid "Header"
+msgstr ""
+
+#: lib/admin/theme-settings.php:394
+#@ genesis
+msgid "Navigation"
+msgstr ""
+
+#: lib/admin/theme-settings.php:401
+#@ genesis
+msgid "Blog Page Template"
+msgstr ""
+
+#: lib/admin/theme-settings.php:449
+#@ genesis
+msgid "Version:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:449
+#@ genesis
+msgid "Released:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:452
+#, php-format
+#@ genesis
+msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
+msgstr ""
+
+#: lib/admin/theme-settings.php:456
+#@ genesis
+msgid "Enable Automatic Updates"
+msgstr ""
+
+#: lib/admin/theme-settings.php:462
+#@ genesis
+msgid "Notify"
+msgstr ""
+
+#: lib/admin/theme-settings.php:464
+#@ genesis
+msgid "when updates are available"
+msgstr ""
+
+#: lib/admin/theme-settings.php:467
+#@ genesis
+msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
+msgstr ""
+
+#: lib/admin/theme-settings.php:511
+#@ genesis
+msgid "Color Style:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:513
+#@ genesis
+msgid "Default"
+msgstr ""
+
+#: lib/admin/theme-settings.php:525
+#@ genesis
+msgid "Please select the color style from the drop down list and save your settings."
+msgstr ""
+
+#: lib/admin/theme-settings.php:571
+#@ genesis
+msgid "Use for site title/logo:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:573
+#@ genesis
+msgid "Dynamic text"
+msgstr ""
+
+#: lib/admin/theme-settings.php:574
+#@ genesis
+msgid "Image logo"
+msgstr ""
+
+#: lib/admin/theme-settings.php:600
+#@ genesis
+msgid "Load Superfish Script?"
+msgstr ""
+
+#: lib/admin/theme-settings.php:608
+#@ genesis
+msgid "Primary Navigation Extras"
+msgstr ""
+
+#: lib/admin/theme-settings.php:612
+#, php-format
+#@ genesis
+msgid "In order to view the %1$s navigation menu settings, you must build a <a href=\"%2$s\">custom menu</a>, then assign it to the %1$s Menu Location."
+msgstr ""
+
+#: lib/admin/theme-settings.php:618
+#@ genesis
+msgid "Display the following:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:620
+#: lib/widgets/featured-page-widget.php:211
+#: lib/widgets/featured-post-widget.php:338
+#: lib/widgets/featured-post-widget.php:368
+#: lib/widgets/user-profile-widget.php:165
+#: lib/widgets/user-profile-widget.php:185
+#@ genesis
+msgid "None"
+msgstr ""
+
+#: lib/admin/theme-settings.php:621
+#@ genesis
+msgid "Today's date"
+msgstr ""
+
+#: lib/admin/theme-settings.php:622
+#@ genesis
+msgid "RSS feed links"
+msgstr ""
+
+#: lib/admin/theme-settings.php:623
+#@ genesis
+msgid "Search form"
+msgstr ""
+
+#: lib/admin/theme-settings.php:624
+#@ genesis
+msgid "Twitter link"
+msgstr ""
+
+#: lib/admin/theme-settings.php:629
+#@ genesis
+msgid "Enter Twitter ID:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:633
+#@ genesis
+msgid "Twitter Link Text:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:658
+#@ genesis
+msgid "Enter your custom feed URI:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:662
+#: lib/admin/theme-settings.php:670
+#@ genesis
+msgid "Redirect Feed?"
+msgstr ""
+
+#: lib/admin/theme-settings.php:666
+#@ genesis
+msgid "Enter your custom comments feed URI:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:673
+#@ genesis
+msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
+msgstr ""
+
+#: lib/admin/theme-settings.php:693
+#@ genesis
+msgid "Enable Comments"
+msgstr ""
+
+#: lib/admin/theme-settings.php:695
+#: lib/admin/theme-settings.php:704
+#@ genesis
+msgid "on posts?"
+msgstr ""
+
+#: lib/admin/theme-settings.php:698
+#: lib/admin/theme-settings.php:707
+#@ genesis
+msgid "on pages?"
+msgstr ""
+
+#: lib/admin/theme-settings.php:702
+#@ genesis
+msgid "Enable Trackbacks"
+msgstr ""
+
+#: lib/admin/theme-settings.php:710
+#@ genesis
+msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
+msgstr ""
+
+#: lib/admin/theme-settings.php:729
+#@ genesis
+msgid "Enable on:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:733
+#@ genesis
+msgid "Front Page"
+msgstr ""
+
+#: lib/admin/theme-settings.php:736
+#@ genesis
+msgid "Posts Page"
+msgstr ""
+
+#: lib/admin/theme-settings.php:739
+#@ genesis
+msgid "Homepage"
+msgstr ""
+
+#: lib/admin/theme-settings.php:743
+#: lib/structure/menu.php:168
+#@ genesis
+msgid "Posts"
+msgstr ""
+
+#: lib/admin/theme-settings.php:746
+#@ genesis
+msgid "Pages"
+msgstr ""
+
+#: lib/admin/theme-settings.php:749
+#@ genesis
+msgid "Archives"
+msgstr ""
+
+#: lib/admin/theme-settings.php:752
+#@ genesis
+msgid "404 Page"
+msgstr ""
+
+#: lib/admin/theme-settings.php:755
+#@ genesis
+msgid "Attachment Page"
+msgstr ""
+
+#: lib/admin/theme-settings.php:758
+#@ genesis
+msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
+msgstr ""
+
+#: lib/admin/theme-settings.php:779
+#@ genesis
+msgid "Select one of the following:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:785
+#@ genesis
+msgid "Display post content"
+msgstr ""
+
+#: lib/admin/theme-settings.php:786
+#@ genesis
+msgid "Display post excerpts"
+msgstr ""
+
+#: lib/admin/theme-settings.php:797
+#: lib/widgets/featured-post-widget.php:402
+#@ genesis
+msgid "Limit content to"
+msgstr ""
+
+#: lib/admin/theme-settings.php:799
+#: lib/widgets/featured-post-widget.php:404
+#@ genesis
+msgid "characters"
+msgstr ""
+
+#: lib/admin/theme-settings.php:802
+#@ genesis
+msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
+msgstr ""
+
+#: lib/admin/theme-settings.php:807
+#@ genesis
+msgid "Include the Featured Image?"
+msgstr ""
+
+#: lib/admin/theme-settings.php:811
+#@ genesis
+msgid "Image Size:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:822
+#@ genesis
+msgid "Select Post Navigation Technique:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:824
+#@ genesis
+msgid "Older / Newer"
+msgstr ""
+
+#: lib/admin/theme-settings.php:825
+#@ genesis
+msgid "Previous / Next"
+msgstr ""
+
+#: lib/admin/theme-settings.php:826
+#@ genesis
+msgid "Numeric"
+msgstr ""
+
+#: lib/admin/theme-settings.php:830
+#@ genesis
+msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
+msgstr ""
+
+#: lib/admin/theme-settings.php:849
+#@ genesis
+msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
+msgstr ""
+
+#: lib/admin/theme-settings.php:854
+#@ genesis
+msgid "Display which category:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:855
+#: lib/widgets/featured-post-widget.php:275
+#@ genesis
+msgid "All Categories"
+msgstr ""
+
+#: lib/admin/theme-settings.php:859
+#@ genesis
+msgid "Exclude the following Category IDs:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:861
+#@ genesis
+msgid "Comma separated - 1,2,3 for example"
+msgstr ""
+
+#: lib/admin/theme-settings.php:866
+#@ genesis
+msgid "Number of Posts to Show:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:888
+#: lib/admin/theme-settings.php:898
+#, php-format
+#@ genesis
+msgid "Enter scripts or code you would like output to %s:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:893
+#: lib/admin/theme-settings.php:903
+#, php-format
+#@ genesis
+msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
+msgstr ""
+
+#: lib/admin/user-meta.php:26
+#@ genesis
+msgid "Google+"
+msgstr ""
+
+#: lib/admin/user-meta.php:72
+#@ genesis
+msgid "User Permissions"
+msgstr ""
+
+#: lib/admin/user-meta.php:76
+#@ genesis
+msgid "Genesis Admin Menus"
+msgstr ""
+
+#: lib/admin/user-meta.php:79
+#@ genesis
+msgid "Enable Genesis Admin Menu?"
+msgstr ""
+
+#: lib/admin/user-meta.php:82
+#@ genesis
+msgid "Enable SEO Settings Submenu?"
+msgstr ""
+
+#: lib/admin/user-meta.php:85
+#@ genesis
+msgid "Enable Import/Export Submenu?"
+msgstr ""
+
+#: lib/admin/user-meta.php:119
+#@ genesis
+msgid "Author Archive Settings"
+msgstr ""
+
+#: lib/admin/user-meta.php:120
+#: lib/admin/user-meta.php:183
+#: lib/admin/user-meta.php:248
+#@ genesis
+msgid "These settings apply to this author's archive pages."
+msgstr ""
+
+#: lib/admin/user-meta.php:124
+#@ genesis
+msgid "Custom Archive Headline"
+msgstr ""
+
+#: lib/admin/user-meta.php:127
+#, php-format
+#@ genesis
+msgid "Will display in the %s tag at the top of the first page"
+msgstr ""
+
+#: lib/admin/user-meta.php:132
+#@ genesis
+msgid "Custom Description Text"
+msgstr ""
+
+#: lib/admin/user-meta.php:135
+#@ genesis
+msgid "This text will be the first paragraph, and display on the first page"
+msgstr ""
+
+#: lib/admin/user-meta.php:140
+#@ genesis
+msgid "Author Box"
+msgstr ""
+
+#: lib/admin/user-meta.php:143
+#@ genesis
+msgid "Enable Author Box on this User's Posts?"
+msgstr ""
+
+#: lib/admin/user-meta.php:146
+#@ genesis
+msgid "Enable Author Box on this User's Archives?"
+msgstr ""
+
+#: lib/admin/whats-new.php:39
+#, php-format
+#@ genesis
+msgid "Welcome to Genesis %s"
+msgstr ""
+
+#: lib/admin/whats-new.php:63
+#, php-format
+#@ genesis
+msgid "Congratulations! You're now running Genesis %s."
+msgstr ""
+
+#: lib/admin/whats-new.php:66
+#@ genesis
+msgid "What&#8217;s New"
+msgstr ""
+
+#: lib/admin/whats-new.php:69
+#@ genesis
+msgid "HTML5 Markup"
+msgstr ""
+
+#: lib/admin/whats-new.php:70
+#@ genesis
+msgid "Genesis has always been on the cutting edge of web technology, and Genesis 2.0 continues in that excellent tradition. With a single line of code in a child theme, Genesis will now output HTML5 markup in place of the old XHTML tags. Also, every theme we build in the future will be developed on HTML5."
+msgstr ""
+
+#: lib/admin/whats-new.php:72
+#@ genesis
+msgid "Microdata"
+msgstr ""
+
+#: lib/admin/whats-new.php:73
+#, php-format
+#@ genesis
+msgid "If you're using a theme with HTML5 enabled, Genesis will also output your markup using microdata.. Not sure what that is? We don't blame you. Take a look at <a href=\"%s\" target=\"_blank\">this explanation</a>. Still confused? Don't worry. That's why you're using a framework. We did all the research and modified the markup to serve search engines the Microdata they're looking for, so you don't have to. It's good to be a Genesis user."
+msgstr ""
+
+#: lib/admin/whats-new.php:75
+#@ genesis
+msgid "A Brand New Design"
+msgstr ""
+
+#: lib/admin/whats-new.php:76
+#@ genesis
+msgid "Genesis is sporting a fresh new look. And we've taken advantage of the new HTML5 markup, as well as some snazzy CSS3. We think you're gonna love this."
+msgstr ""
+
+#: lib/admin/whats-new.php:78
+#@ genesis
+msgid "Removing Features"
+msgstr ""
+
+#: lib/admin/whats-new.php:79
+#@ genesis
+msgid "We want to keep Genesis as lightweight as possible for you, nobody wants to use bloated software. So we've removed the Latest Tweets widget, eNews widget, the \"post templates\" feature, and the \"fancy dropdowns\" setting. But fear not! If you want those features back, click below to install the handy plugins we created for you."
+msgstr ""
+
+#: lib/admin/whats-new.php:83
+#@ genesis
+msgid "Genesis Latest Tweets Widget"
+msgstr ""
+
+#: lib/admin/whats-new.php:84
+#@ genesis
+msgid "Genesis eNews Extended"
+msgstr ""
+
+#: lib/admin/whats-new.php:85
+#@ genesis
+msgid "Single Post Template"
+msgstr ""
+
+#: lib/admin/whats-new.php:86
+#@ genesis
+msgid "Fancy Dropdowns"
+msgstr ""
+
+#: lib/admin/whats-new.php:90
+#@ genesis
+msgid "Boring, but important"
+msgstr ""
+
+#: lib/admin/whats-new.php:91
+#@ genesis
+msgid "We're always improving. Call it a sickness, but we like to make things work really, really well. Here's a list of the technical changes in this latest release."
+msgstr ""
+
+#: lib/admin/whats-new.php:95
+#@ genesis
+msgid "Better named loop hooks for HTML5."
+msgstr ""
+
+#: lib/admin/whats-new.php:96
+#@ genesis
+msgid "Network Upgrade now upgrades the Genesis database for all sites in a network when running WordPress in multisite mode."
+msgstr ""
+
+#: lib/admin/whats-new.php:97
+#@ genesis
+msgid "Widget classes are now coded in PHP5 format."
+msgstr ""
+
+#: lib/admin/whats-new.php:98
+#@ genesis
+msgid "Admin CSS and Javascript are now minified."
+msgstr ""
+
+#: lib/admin/whats-new.php:99
+#@ genesis
+msgid "Inline HTML comments have been removed to reduce page size."
+msgstr ""
+
+#: lib/admin/whats-new.php:100
+#@ genesis
+msgid "The Scripts option now has its own metabox when editing an entry."
+msgstr ""
+
+#: lib/admin/whats-new.php:101
+#@ genesis
+msgid "Custom Post Type archive pages now have a settings page so you can control the output."
+msgstr ""
+
+#: lib/admin/whats-new.php:102
+#@ genesis
+msgid "Genesis tracks displayed entry IDs so you can exclude entries from showing twice on a page."
+msgstr ""
+
+#: lib/admin/whats-new.php:103
+#@ genesis
+msgid "Entries without titles now display a permalink after the post content."
+msgstr ""
+
+#: lib/admin/whats-new.php:112
+#@ genesis
+msgid "Project Leads"
+msgstr ""
+
+#: lib/admin/whats-new.php:118
+#: lib/admin/whats-new.php:123
+#: lib/admin/whats-new.php:128
+#@ genesis
+msgid "Lead Developer"
+msgstr ""
+
+#: lib/admin/whats-new.php:136
+#@ genesis
+msgid "Contributors"
+msgstr ""
+
+#: lib/admin/whats-new.php:147
+#@ genesis
+msgid "Contributor"
+msgstr ""
+
+#: lib/admin/whats-new.php:156
+#@ genesis
+msgid "Go to Theme Settings &rarr;"
+msgstr ""
+
+#: lib/admin/whats-new.php:157
+#@ genesis
+msgid "Go to SEO Settings &rarr;"
+msgstr ""
+
+#: lib/classes/admin.php:119
+#, php-format
+#@ genesis
+msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
+msgstr ""
+
+#: lib/classes/breadcrumb.php:44
+#: lib/functions/menu.php:100
+#@ genesis
+msgid "Home"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:52
+#@ genesis
+msgid "You are here: "
+msgstr ""
+
+#: lib/classes/breadcrumb.php:53
+#: lib/classes/breadcrumb.php:54
+#: lib/classes/breadcrumb.php:55
+#: lib/classes/breadcrumb.php:56
+#: lib/classes/breadcrumb.php:58
+#: lib/classes/breadcrumb.php:59
+#@ genesis
+msgid "Archives for "
+msgstr ""
+
+#: lib/classes/breadcrumb.php:57
+#@ genesis
+msgid "Search for "
+msgstr ""
+
+#: lib/classes/breadcrumb.php:60
+#@ genesis
+msgid "Not found: "
+msgstr ""
+
+#: lib/classes/breadcrumb.php:187
+#: lib/classes/breadcrumb.php:280
+#: lib/classes/breadcrumb.php:316
+#, php-format
+#@ genesis
+msgid "View %s"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:352
+#, php-format
+#@ genesis
+msgid "View all posts in %s"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:386
+#, php-format
+#@ genesis
+msgid "View all %s"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:467
+#: lib/classes/breadcrumb.php:491
+#, php-format
+#@ genesis
+msgid "View archives for %s"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:497
+#, php-format
+#@ genesis
+msgid "View archives for %s %s"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:561
+#, php-format
+#@ genesis
+msgid "View all items in %s"
+msgstr ""
+
+#: lib/functions/deprecated.php:32
+#@ genesis
+msgid "data in style sheet files"
+msgstr ""
+
+#: lib/functions/deprecated.php:67
+#@ genesis
+msgid "decimal or hexidecimal entities"
+msgstr ""
+
+#: lib/functions/deprecated.php:136
+#@ genesis
+msgid "genesis_superfish_enabled filter"
+msgstr ""
+
+#: lib/functions/formatting.php:283
+#@ genesis
+msgctxt "time difference"
+msgid "seconds"
+msgstr ""
+
+#: lib/functions/formatting.php:287
+#, php-format
+#@ genesis
+msgctxt "time difference"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:288
+#, php-format
+#@ genesis
+msgctxt "time difference"
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:289
+#, php-format
+#@ genesis
+msgctxt "time difference"
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:290
+#, php-format
+#@ genesis
+msgctxt "time difference"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:291
+#, php-format
+#@ genesis
+msgctxt "time difference"
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:292
+#, php-format
+#@ genesis
+msgctxt "time difference"
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:293
+#, php-format
+#@ genesis
+msgctxt "time difference"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:318
+#@ genesis
+msgctxt "separator in time difference"
+msgid "and"
+msgstr ""
+
+#: lib/functions/general.php:309
+#, php-format
+#@ genesis
+msgid "Install %s"
+msgstr ""
+
+#: lib/functions/layout.php:38
+#@ genesis
+msgid "Content-Sidebar"
+msgstr ""
+
+#: lib/functions/layout.php:43
+#@ genesis
+msgid "Sidebar-Content"
+msgstr ""
+
+#: lib/functions/layout.php:47
+#@ genesis
+msgid "Content-Sidebar-Sidebar"
+msgstr ""
+
+#: lib/functions/layout.php:51
+#@ genesis
+msgid "Sidebar-Sidebar-Content"
+msgstr ""
+
+#: lib/functions/layout.php:55
+#@ genesis
+msgid "Sidebar-Content-Sidebar"
+msgstr ""
+
+#: lib/functions/layout.php:107
+#@ genesis
+msgid "No Label Selected"
+msgstr ""
+
+#: lib/functions/menu.php:71
+#@ genesis
+msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
+msgstr ""
+
+#: lib/functions/seo.php:123
+#, php-format
+#@ genesis
+msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
+msgstr ""
+
+#: lib/functions/seo.php:125
+#@ genesis
+msgid "Dismiss"
+msgstr ""
+
+#: lib/functions/upgrade.php:475
+#, php-format
+#@ genesis
+msgid "Congratulations! You are now rocking Genesis %s"
+msgstr ""
+
+#: lib/functions/upgrade.php:500
+#@ genesis
+msgid "Click here to complete the upgrade"
+msgstr ""
+
+#: lib/functions/upgrade.php:571
+#, php-format
+#@ genesis
+msgid "Genesis %s is available for %s"
+msgstr ""
+
+#: lib/functions/upgrade.php:572
+#, php-format
+#@ genesis
+msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
+msgstr ""
+
+#: lib/functions/widgetize.php:75
+#@ genesis
+msgid "Header Left"
+msgstr ""
+
+#: lib/functions/widgetize.php:75
+#@ genesis
+msgid "Header Right"
+msgstr ""
+
+#: lib/functions/widgetize.php:76
+#@ genesis
+msgid "This is the widget area in the header."
+msgstr ""
+
+#: lib/functions/widgetize.php:83
+#@ genesis
+msgid "Primary Sidebar"
+msgstr ""
+
+#: lib/functions/widgetize.php:84
+#@ genesis
+msgid "This is the primary sidebar if you are using a two or three column site layout option."
+msgstr ""
+
+#: lib/functions/widgetize.php:91
+#@ genesis
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: lib/functions/widgetize.php:92
+#@ genesis
+msgid "This is the secondary sidebar if you are using a three column site layout option."
+msgstr ""
+
+#: lib/functions/widgetize.php:124
+#, php-format
+#@ genesis
+msgid "Footer %d"
+msgstr ""
+
+#: lib/functions/widgetize.php:125
+#, php-format
+#@ genesis
+msgid "Footer %d widget area."
+msgstr ""
+
+#: lib/init.php:58
+#@ genesis
+msgid "Primary Navigation Menu"
+msgstr ""
+
+#: lib/init.php:59
+#@ genesis
+msgid "Secondary Navigation Menu"
+msgstr ""
+
+#: lib/js/load-scripts.php:105
+#@ genesis
+msgid "Select / Deselect All"
+msgstr ""
+
+#: lib/js/load-scripts.php:106
+#@ genesis
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: lib/js/load-scripts.php:107
+#@ genesis
+msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
+msgstr ""
+
+#: lib/js/load-scripts.php:108
+#@ genesis
+msgid "Are you sure you want to reset?"
+msgstr ""
+
+#: lib/shortcodes/footer.php:40
+#@ genesis
+msgid "Return to top of page"
+msgstr ""
+
+#: lib/shortcodes/footer.php:175
+#: lib/structure/post.php:381
+#@ genesis
+msgid "by"
+msgstr ""
+
+#: lib/shortcodes/footer.php:240
+#@ genesis
+msgid "Log in"
+msgstr ""
+
+#: lib/shortcodes/footer.php:242
+#@ genesis
+msgid "Log out"
+msgstr ""
+
+#: lib/shortcodes/post.php:42
+#@ genesis
+msgid "ago"
+msgstr ""
+
+#: lib/shortcodes/post.php:170
+#, php-format
+#@ genesis
+msgid "Visit %s&#x02019;s website"
+msgstr ""
+
+#: lib/shortcodes/post.php:247
+#@ genesis
+msgid "% Comments"
+msgstr ""
+
+#: lib/shortcodes/post.php:248
+#@ genesis
+msgid "1 Comment"
+msgstr ""
+
+#: lib/shortcodes/post.php:249
+#@ genesis
+msgid "Leave a Comment"
+msgstr ""
+
+#: lib/shortcodes/post.php:293
+#@ genesis
+msgid "Tagged With: "
+msgstr ""
+
+#: lib/shortcodes/post.php:333
+#: lib/shortcodes/post.php:375
+#@ genesis
+msgid "Filed Under: "
+msgstr ""
+
+#: lib/shortcodes/post.php:423
+#: lib/structure/comments.php:225
+#: lib/structure/comments.php:290
+#: lib/structure/post.php:280
+#@ genesis
+msgid "(Edit)"
+msgstr ""
+
+#: lib/structure/comments.php:79
+#@ genesis
+msgid "<h3>Comments</h3>"
+msgstr ""
+
+#: lib/structure/comments.php:138
+#@ genesis
+msgid "<h3>Trackbacks</h3>"
+msgstr ""
+
+#: lib/structure/comments.php:220
+#, php-format
+#@ genesis
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+msgstr ""
+
+#: lib/structure/comments.php:220
+#: lib/structure/comments.php:281
+#@ genesis
+msgid "says"
+msgstr ""
+
+#: lib/structure/comments.php:224
+#, php-format
+#@ genesis
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: lib/structure/comments.php:231
+#: lib/structure/comments.php:297
+#@ genesis
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/structure/comments.php:288
+#@ genesis
+msgid "at"
+msgstr ""
+
+#: lib/structure/comments.php:370
+#@ genesis
+msgid "Name"
+msgstr ""
+
+#: lib/structure/comments.php:376
+#@ genesis
+msgid "Email"
+msgstr ""
+
+#: lib/structure/comments.php:382
+#@ genesis
+msgid "Website"
+msgstr ""
+
+#: lib/structure/comments.php:391
+#@ genesis
+msgid "Speak Your Mind"
+msgstr ""
+
+#: lib/structure/footer.php:124
+#@ genesis
+msgid "Copyright"
+msgstr ""
+
+#: lib/structure/footer.php:124
+#@ genesis
+msgid "on"
+msgstr ""
+
+#: lib/structure/loops.php:253
+#@ genesis
+msgid "Read more"
+msgstr ""
+
+#: lib/structure/menu.php:169
+#@ genesis
+msgid "Comments"
+msgstr ""
+
+#: lib/structure/post.php:287
+#: lib/structure/post.php:289
+#@ genesis
+msgid "[Read more...]"
+msgstr ""
+
+#: lib/structure/post.php:313
+#@ genesis
+msgid "Permalink"
+msgstr ""
+
+#: lib/structure/post.php:351
+#@ genesis
+msgid "Sorry, no content matched your criteria."
+msgstr ""
+
+#: lib/structure/post.php:501
+#: lib/structure/post.php:511
+#@ genesis
+msgid "About"
+msgstr ""
+
+#: lib/structure/post.php:561
+#@ genesis
+msgid "Older Posts"
+msgstr ""
+
+#: lib/structure/post.php:562
+#@ genesis
+msgid "Newer Posts"
+msgstr ""
+
+#: lib/structure/post.php:583
+#: lib/structure/post.php:649
+#@ genesis
+msgid "Previous Page"
+msgstr ""
+
+#: lib/structure/post.php:584
+#: lib/structure/post.php:679
+#@ genesis
+msgid "Next Page"
+msgstr ""
+
+#: lib/structure/search.php:31
+#@ genesis
+msgid "Search this website"
+msgstr ""
+
+#: lib/structure/search.php:33
+#@ genesis
+msgid "Search"
+msgstr ""
+
+#: lib/structure/sidebar.php:25
+#@ genesis
+msgid "Primary Sidebar Widget Area"
+msgstr ""
+
+#: lib/structure/sidebar.php:28
+#, php-format
+#@ genesis
+msgid "This is the Primary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr ""
+
+#: lib/structure/sidebar.php:46
+#@ genesis
+msgid "Secondary Sidebar Widget Area"
+msgstr ""
+
+#: lib/structure/sidebar.php:49
+#, php-format
+#@ genesis
+msgid "This is the Secondary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:51
+#@ genesis
+msgid "Displays featured page with thumbnails"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:60
+#@ genesis
+msgid "Genesis - Featured Page"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:180
+#: lib/widgets/featured-post-widget.php:259
+#: lib/widgets/featured-post-widget.php:295
+#: lib/widgets/featured-post-widget.php:420
+#: lib/widgets/user-profile-widget.php:141
+#@ genesis
+msgid "Title"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:185
+#@ genesis
+msgid "Page"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:193
+#: lib/widgets/featured-post-widget.php:350
+#@ genesis
+msgid "Show Featured Image"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:197
+#: lib/widgets/featured-post-widget.php:354
+#@ genesis
+msgid "Image Size"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:209
+#: lib/widgets/featured-post-widget.php:366
+#@ genesis
+msgid "Image Alignment"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:221
+#@ genesis
+msgid "Show Page Title"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:226
+#@ genesis
+msgid "Show Page Content"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:230
+#@ genesis
+msgid "Content Character Limit"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:235
+#@ genesis
+msgid "More Text"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:53
+#@ genesis
+msgid "By"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:56
+#@ genesis
+msgid "[Read More...]"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:60
+#@ genesis
+msgid "More Posts from this Category"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:65
+#@ genesis
+msgid "Displays featured posts with thumbnails"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:74
+#@ genesis
+msgid "Genesis - Featured Posts"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:268
+#@ genesis
+msgid "Category"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:282
+#: lib/widgets/featured-post-widget.php:425
+#@ genesis
+msgid "Number of Posts to Show"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:287
+#@ genesis
+msgid "Number of Posts to Offset"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:292
+#@ genesis
+msgid "Order By"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:294
+#@ genesis
+msgid "Date"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:296
+#@ genesis
+msgid "Parent"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:297
+#@ genesis
+msgid "ID"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:298
+#@ genesis
+msgid "Comment Count"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:299
+#@ genesis
+msgid "Random"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:304
+#@ genesis
+msgid "Sort Order"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:306
+#@ genesis
+msgid "Descending (3, 2, 1)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:307
+#@ genesis
+msgid "Ascending (1, 2, 3)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:313
+#@ genesis
+msgid "Exclude Previously Displayed Posts?"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:322
+#@ genesis
+msgid "Show Author Gravatar"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:326
+#: lib/widgets/user-profile-widget.php:151
+#@ genesis
+msgid "Gravatar Size"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:328
+#@ genesis
+msgid "Small (45px)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:329
+#@ genesis
+msgid "Medium (65px)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:330
+#@ genesis
+msgid "Large (85px)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:331
+#@ genesis
+msgid "Extra Large (125px)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:336
+#: lib/widgets/user-profile-widget.php:163
+#@ genesis
+msgid "Gravatar Alignment"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:384
+#@ genesis
+msgid "Show Post Title"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:389
+#@ genesis
+msgid "Show Post Info"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:394
+#@ genesis
+msgid "Content Type"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:396
+#@ genesis
+msgid "Show Content"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:397
+#@ genesis
+msgid "Show Excerpt"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:398
+#@ genesis
+msgid "Show Content Limit"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:399
+#@ genesis
+msgid "No Content"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:409
+#@ genesis
+msgid "More Text (if applicable)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:417
+#@ genesis
+msgid "To display an unordered list of more posts from this category, please fill out the information below"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:435
+#@ genesis
+msgid "Show Category Archive Link"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:439
+#@ genesis
+msgid "Link Text"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:43
+#@ genesis
+msgid "Read More"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:49
+#@ genesis
+msgid "Displays user profile block with Gravatar"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:58
+#@ genesis
+msgid "Genesis - User Profile"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:102
+#@ genesis
+msgid "View My Blog Posts"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:146
+#@ genesis
+msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:154
+#@ genesis
+msgid "Small"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:154
+#@ genesis
+msgid "Medium"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:154
+#@ genesis
+msgid "Large"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:154
+#@ genesis
+msgid "Extra Large"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:172
+#@ genesis
+msgid "Select which text you would like to use as the author description"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:175
+#@ genesis
+msgid "Author Bio"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:177
+#@ genesis
+msgid "Custom Text (below)"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:178
+#@ genesis
+msgid "Custom Text Content"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:184
+#@ genesis
+msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:189
+#@ genesis
+msgid "Extended page link text"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:195
+#@ genesis
+msgid "Show Author Archive Link?"
+msgstr ""
+
+#: search.php:22
+#@ genesis
+msgid "Search Results for:"
+msgstr ""
+
+
+
+#: 404.php:33
+msgid "Not Found, Error 404"
+msgstr ""
+
+#: 404.php:35
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
+msgstr ""
+
+#: 404.php:39 lib/structure/post.php:219 page_archive.php:35
+msgid "Pages:"
+msgstr ""
+
+#: 404.php:44 page_archive.php:40
+msgid "Categories:"
+msgstr ""
+
+#: 404.php:53 page_archive.php:49
+msgid "Authors:"
+msgstr ""
+
+#: 404.php:58 page_archive.php:54
+msgid "Monthly:"
+msgstr ""
+
+#: 404.php:63 page_archive.php:59
+msgid "Recent Posts:"
+msgstr ""
+
+#: comments.php:24
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: lib/admin/import-export.php:45
+msgid "Genesis - Import/Export"
+msgstr ""
+
+#: lib/admin/import-export.php:46
+msgid "Import/Export"
+msgstr ""
+
+#: lib/admin/import-export.php:81
+msgid "Import Genesis Settings File"
+msgstr ""
+
+#: lib/admin/import-export.php:83
+msgid "Upload the data file (%s) from your computer and we'll import your settings."
+msgstr ""
+
+#: lib/admin/import-export.php:84
+msgid "Choose the file from your computer and click \"Upload file and Import\""
+msgstr ""
+
+#: lib/admin/import-export.php:89
+msgid "Upload File: (Maximum Size: %s)"
+msgstr ""
+
+#: lib/admin/import-export.php:92
+msgid "Upload File and Import"
+msgstr ""
+
+#: lib/admin/import-export.php:100
+msgid "Export Genesis Settings File"
+msgstr ""
+
+#: lib/admin/import-export.php:102
+msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
+msgstr ""
+
+#: lib/admin/import-export.php:103
+msgid "Once you have saved the download file, you can use the import function on another site to import this data."
+msgstr ""
+
+#: lib/admin/import-export.php:110
+msgid "Download Export File"
+msgstr ""
+
+#: lib/admin/import-export.php:142
+msgid "Settings successfully imported."
+msgstr ""
+
+#: lib/admin/import-export.php:144
+msgid "There was a problem importing your settings. Please try again."
+msgstr ""
+
+#: lib/admin/import-export.php:162 lib/admin/theme-settings.php:58
+#: lib/admin/theme-settings.php:59
+msgid "Theme Settings"
+msgstr ""
+
+#: lib/admin/import-export.php:166 lib/admin/seo-settings.php:44
+msgid "SEO Settings"
+msgstr ""
+
+#: lib/admin/import-export.php:188
+msgid "No export options available."
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:33 lib/admin/term-meta.php:119
+#: lib/admin/user-meta.php:182
+msgid "Theme SEO Settings"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:54
+msgid "Custom Document Title"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:54 lib/admin/inpost-metaboxes.php:57
+msgid "Characters Used: %s"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:57
+msgid "Custom Post/Page Meta Description"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:60
+msgid "Custom Post/Page Meta Keywords, comma separated"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:63
+msgid "Custom Canonical URI"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:66
+msgid "Custom Redirect URI"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:71 lib/admin/seo-settings.php:176
+msgid "Robots Meta Settings"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:75 lib/admin/inpost-metaboxes.php:78
+#: lib/admin/inpost-metaboxes.php:81
+msgid "Apply %s to this post/page"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:86
+msgid "Custom Tracking/Conversion Code"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:161 lib/admin/term-meta.php:202
+#: lib/admin/user-meta.php:246
+msgid "Layout Settings"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:185 lib/admin/term-meta.php:211
+#: lib/admin/user-meta.php:256
+msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:192
+msgid "Custom Body Class"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:195
+msgid "Custom Post Class"
+msgstr ""
+
+#: lib/admin/readme-menu.php:40 lib/admin/readme-menu.php:41
+msgid "README"
+msgstr ""
+
+#: lib/admin/readme-menu.php:68
+msgid "The %s file was not found in the child theme, or it was empty."
+msgstr ""
+
+#: lib/admin/seo-settings.php:43
+msgid "Genesis - SEO Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:69
+#: lib/classes/admin.php:104
+msgid "Save Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:70
+#: lib/classes/admin.php:105
+msgid "Reset Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:71
+#: lib/classes/admin.php:106
+msgid "Settings saved."
+msgstr ""
+
+#: lib/admin/seo-settings.php:53 lib/admin/theme-settings.php:72
+#: lib/classes/admin.php:107
+msgid "Settings reset."
+msgstr ""
+
+#: lib/admin/seo-settings.php:54 lib/admin/theme-settings.php:73
+#: lib/classes/admin.php:108
+msgid "Error saving settings."
+msgstr ""
+
+#: lib/admin/seo-settings.php:173
+msgid "Document Title Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:174
+msgid "Homepage Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:175
+msgid "Document Head Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:177
+msgid "Archives Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:194
+msgid "The document title (%s) is the single most important element in your document source for <abbr title=\"Search engine optimization\">SEO</abbr>. It succinctly informs search engines of what information is contained in the document. The title can, and should, be different on each page, but these options will help you control what it will look like by default."
+msgstr ""
+
+#: lib/admin/seo-settings.php:196
+msgid "<strong>By default</strong>, the home page document title will contain the site title, the single post and page document titles will contain the post or page title, the archive pages will contain the archive type, etc."
+msgstr ""
+
+#: lib/admin/seo-settings.php:200
+msgid "Add site description (tagline) to %s on home page?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:205
+msgid "Add site name to %s on inner pages?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:209
+msgid "Document Title Additions Location:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:210
+msgid "Determines which side the added title text will go on."
+msgstr ""
+
+#: lib/admin/seo-settings.php:214 lib/widgets/featured-page-widget.php:191
+#: lib/widgets/featured-post-widget.php:290
+#: lib/widgets/featured-post-widget.php:320
+#: lib/widgets/user-profile-widget.php:161
+msgid "Left"
+msgstr ""
+
+#: lib/admin/seo-settings.php:217 lib/widgets/featured-page-widget.php:192
+#: lib/widgets/featured-post-widget.php:291
+#: lib/widgets/featured-post-widget.php:321
+#: lib/widgets/user-profile-widget.php:162
+msgid "Right"
+msgstr ""
+
+#: lib/admin/seo-settings.php:222
+msgid "Document Title Separator:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:224
+msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
+msgstr ""
+
+#: lib/admin/seo-settings.php:245
+msgid "Which text would you like to be wrapped in %s tags?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:246
+msgid "The %s tag is, arguably, the second most important <abbr title=\"Search engine optimization\">SEO</abbr> tag in the document source. Choose wisely."
+msgstr ""
+
+#: lib/admin/seo-settings.php:250
+msgid "Site Title"
+msgstr ""
+
+#: lib/admin/seo-settings.php:253
+msgid "Site Description (Tagline)"
+msgstr ""
+
+#: lib/admin/seo-settings.php:256
+msgid "Neither. I'll manually wrap my own text on the homepage"
+msgstr ""
+
+#: lib/admin/seo-settings.php:260
+msgid "Homepage Document Title:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:262
+msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
+msgstr ""
+
+#: lib/admin/seo-settings.php:266
+msgid "Home Meta Description:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:268
+msgid "The meta description can be used to determine the text used under the title on search engine results pages."
+msgstr ""
+
+#: lib/admin/seo-settings.php:272
+msgid "Home Meta Keywords (comma separated):"
+msgstr ""
+
+#: lib/admin/seo-settings.php:274
+msgid "Keywords are generally ignored by Search Engines."
+msgstr ""
+
+#: lib/admin/seo-settings.php:277
+msgid "Homepage Robots Meta Tags:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:281 lib/admin/seo-settings.php:284
+#: lib/admin/seo-settings.php:287
+msgid "Apply %s to the homepage?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:290
+msgid "Homepage Author"
+msgstr ""
+
+#: lib/admin/seo-settings.php:293
+msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
+msgstr ""
+
+#: lib/admin/seo-settings.php:298
+msgid "Select User"
+msgstr ""
+
+#: lib/admin/seo-settings.php:321
+msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
+msgstr ""
+
+#: lib/admin/seo-settings.php:323
+msgid "Relationship Link Tags:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:327
+msgid "Adjacent Posts %s link tags"
+msgstr ""
+
+#: lib/admin/seo-settings.php:330
+msgid "Windows Live Writer Support:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:334
+msgid "Include Windows Live Writer Support Tag?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:337
+msgid "Shortlink Tag:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:341
+msgid "Include Shortlink tag?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:344
+msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
+msgstr ""
+
+#: lib/admin/seo-settings.php:366
+msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
+msgstr ""
+
+#: lib/admin/seo-settings.php:370 lib/admin/seo-settings.php:394
+msgid "Apply %s to Category Archives?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:373 lib/admin/seo-settings.php:397
+msgid "Apply %s to Tag Archives?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:376 lib/admin/seo-settings.php:400
+msgid "Apply %s to Author Archives?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:379 lib/admin/seo-settings.php:403
+msgid "Apply %s to Date Archives?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:382 lib/admin/seo-settings.php:406
+msgid "Apply %s to Search Archives?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:385
+msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
+msgstr ""
+
+#: lib/admin/seo-settings.php:389
+msgid "Apply %s to Entire Site?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:409
+msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
+msgstr ""
+
+#: lib/admin/seo-settings.php:413 lib/admin/seo-settings.php:416
+msgid "Apply %s to your site?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:437
+msgid "Canonical Paginated Archives"
+msgstr ""
+
+#: lib/admin/seo-settings.php:440
+msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
+msgstr ""
+
+#: lib/admin/term-meta.php:55
+msgid "Archive Settings"
+msgstr ""
+
+#: lib/admin/term-meta.php:59
+msgid "Archive Headline"
+msgstr ""
+
+#: lib/admin/term-meta.php:62
+msgid "Leave empty if you do not want to display a headline."
+msgstr ""
+
+#: lib/admin/term-meta.php:66
+msgid "Archive Intro Text"
+msgstr ""
+
+#: lib/admin/term-meta.php:69
+msgid "Leave empty if you do not want to display any intro text."
+msgstr ""
+
+#: lib/admin/term-meta.php:130 lib/admin/user-meta.php:194
+msgid "Meta Description"
+msgstr ""
+
+#: lib/admin/term-meta.php:137 lib/admin/user-meta.php:201
+msgid "Meta Keywords"
+msgstr ""
+
+#: lib/admin/term-meta.php:140 lib/admin/user-meta.php:204
+msgid "Comma separated list"
+msgstr ""
+
+#: lib/admin/term-meta.php:145 lib/admin/user-meta.php:209
+msgid "Robots Meta"
+msgstr ""
+
+#: lib/admin/term-meta.php:148 lib/admin/term-meta.php:150
+#: lib/admin/term-meta.php:152 lib/admin/user-meta.php:212
+#: lib/admin/user-meta.php:214 lib/admin/user-meta.php:216
+msgid "Apply %s to this archive?"
+msgstr ""
+
+#: lib/admin/term-meta.php:206 lib/admin/user-meta.php:251
+msgid "Choose Layout"
+msgstr ""
+
+#: lib/admin/theme-settings.php:91
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: lib/admin/theme-settings.php:221
+msgid "Information"
+msgstr ""
+
+#: lib/admin/theme-settings.php:224
+msgid "Color Style"
+msgstr ""
+
+#: lib/admin/theme-settings.php:226
+msgid "Custom Feeds"
+msgstr ""
+
+#: lib/admin/theme-settings.php:227
+msgid "Default Layout"
+msgstr ""
+
+#: lib/admin/theme-settings.php:230
+msgid "Header"
+msgstr ""
+
+#: lib/admin/theme-settings.php:233
+msgid "Navigation"
+msgstr ""
+
+#: lib/admin/theme-settings.php:236
+msgid "Breadcrumbs"
+msgstr ""
+
+#: lib/admin/theme-settings.php:238
+msgid "Comments and Trackbacks"
+msgstr ""
+
+#: lib/admin/theme-settings.php:239
+msgid "Content Archives"
+msgstr ""
+
+#: lib/admin/theme-settings.php:240
+msgid "Blog Page Template"
+msgstr ""
+
+#: lib/admin/theme-settings.php:243
+msgid "Header and Footer Scripts"
+msgstr ""
+
+#: lib/admin/theme-settings.php:284
+msgid "Version:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:284
+msgid "Released:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:288
+msgid "Display Theme Information in your document source"
+msgstr ""
+
+#: lib/admin/theme-settings.php:292
+msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
+msgstr ""
+
+#: lib/admin/theme-settings.php:296
+msgid "Enable Automatic Updates"
+msgstr ""
+
+#: lib/admin/theme-settings.php:301
+msgid "Notify"
+msgstr ""
+
+#: lib/admin/theme-settings.php:303
+msgid "when updates are available"
+msgstr ""
+
+#: lib/admin/theme-settings.php:306
+msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
+msgstr ""
+
+#: lib/admin/theme-settings.php:329
+msgid "Color Style:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:331 lib/tools/post-templates.php:159
+msgid "Default"
+msgstr ""
+
+#: lib/admin/theme-settings.php:343
+msgid "Please select the color style from the drop down list and save your settings."
+msgstr ""
+
+#: lib/admin/theme-settings.php:389
+msgid "Use for site title/logo:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:391
+msgid "Dynamic text"
+msgstr ""
+
+#: lib/admin/theme-settings.php:392
+msgid "Image logo"
+msgstr ""
+
+#: lib/admin/theme-settings.php:418
+msgid "In order to use the navigation menus, you must build a <a href=\"%s\">custom menu</a>, then assign it to the proper Menu Location."
+msgstr ""
+
+#: lib/admin/theme-settings.php:423
+msgid "Primary Navigation"
+msgstr ""
+
+#: lib/admin/theme-settings.php:427 lib/admin/theme-settings.php:465
+msgid "Enable Fancy Dropdowns?"
+msgstr ""
+
+#: lib/admin/theme-settings.php:432
+msgid "Enable Extras on Right Side?"
+msgstr ""
+
+#: lib/admin/theme-settings.php:437
+msgid "Display the following:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:439
+msgid "Today's date"
+msgstr ""
+
+#: lib/admin/theme-settings.php:440
+msgid "RSS feed links"
+msgstr ""
+
+#: lib/admin/theme-settings.php:441
+msgid "Search form"
+msgstr ""
+
+#: lib/admin/theme-settings.php:442
+msgid "Twitter link"
+msgstr ""
+
+#: lib/admin/theme-settings.php:447
+msgid "Enter Twitter ID:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:451
+msgid "Twitter Link Text:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:461
+msgid "Secondary Navigation"
+msgstr ""
+
+#: lib/admin/theme-settings.php:487
+msgid "Enter your custom feed URI:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:491 lib/admin/theme-settings.php:499
+msgid "Redirect Feed?"
+msgstr ""
+
+#: lib/admin/theme-settings.php:495
+msgid "Enter your custom comments feed URI:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:502
+msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
+msgstr ""
+
+#: lib/admin/theme-settings.php:521
+msgid "Enable Comments"
+msgstr ""
+
+#: lib/admin/theme-settings.php:523 lib/admin/theme-settings.php:532
+msgid "on posts?"
+msgstr ""
+
+#: lib/admin/theme-settings.php:526 lib/admin/theme-settings.php:535
+msgid "on pages?"
+msgstr ""
+
+#: lib/admin/theme-settings.php:530
+msgid "Enable Trackbacks"
+msgstr ""
+
+#: lib/admin/theme-settings.php:538
+msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
+msgstr ""
+
+#: lib/admin/theme-settings.php:556
+msgid "Enable on:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:560
+msgid "Front Page"
+msgstr ""
+
+#: lib/admin/theme-settings.php:563
+msgid "Posts Page"
+msgstr ""
+
+#: lib/admin/theme-settings.php:566
+msgid "Homepage"
+msgstr ""
+
+#: lib/admin/theme-settings.php:570 lib/structure/menu.php:161
+msgid "Posts"
+msgstr ""
+
+#: lib/admin/theme-settings.php:573
+msgid "Pages"
+msgstr ""
+
+#: lib/admin/theme-settings.php:576
+msgid "Archives"
+msgstr ""
+
+#: lib/admin/theme-settings.php:579
+msgid "404 Page"
+msgstr ""
+
+#: lib/admin/theme-settings.php:582
+msgid "Attachment Page"
+msgstr ""
+
+#: lib/admin/theme-settings.php:585
+msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
+msgstr ""
+
+#: lib/admin/theme-settings.php:605
+msgid "Select one of the following:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:611
+msgid "Display post content"
+msgstr ""
+
+#: lib/admin/theme-settings.php:612
+msgid "Display post excerpts"
+msgstr ""
+
+#: lib/admin/theme-settings.php:623 lib/widgets/featured-post-widget.php:353
+msgid "Limit content to"
+msgstr ""
+
+#: lib/admin/theme-settings.php:625 lib/widgets/featured-post-widget.php:355
+msgid "characters"
+msgstr ""
+
+#: lib/admin/theme-settings.php:628
+msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
+msgstr ""
+
+#: lib/admin/theme-settings.php:633
+msgid "Include the Featured Image?"
+msgstr ""
+
+#: lib/admin/theme-settings.php:637
+msgid "Image Size:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:648
+msgid "Select Post Navigation Technique:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:650
+msgid "Older / Newer"
+msgstr ""
+
+#: lib/admin/theme-settings.php:651
+msgid "Previous / Next"
+msgstr ""
+
+#: lib/admin/theme-settings.php:652
+msgid "Numeric"
+msgstr ""
+
+#: lib/admin/theme-settings.php:656
+msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
+msgstr ""
+
+#: lib/admin/theme-settings.php:674
+msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
+msgstr ""
+
+#: lib/admin/theme-settings.php:679
+msgid "Display which category:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:680 lib/widgets/featured-post-widget.php:231
+msgid "All Categories"
+msgstr ""
+
+#: lib/admin/theme-settings.php:684
+msgid "Exclude the following Category IDs:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:686
+msgid "Comma separated - 1,2,3 for example"
+msgstr ""
+
+#: lib/admin/theme-settings.php:691
+msgid "Number of Posts to Show:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:712 lib/admin/theme-settings.php:722
+msgid "Enter scripts or code you would like output to %s:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:717 lib/admin/theme-settings.php:727
+msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
+msgstr ""
+
+#: lib/admin/user-meta.php:25
+msgid "Google+"
+msgstr ""
+
+#: lib/admin/user-meta.php:73
+msgid "User Permissions"
+msgstr ""
+
+#: lib/admin/user-meta.php:77
+msgid "Genesis Admin Menus"
+msgstr ""
+
+#: lib/admin/user-meta.php:80
+msgid "Enable Genesis Admin Menu?"
+msgstr ""
+
+#: lib/admin/user-meta.php:82
+msgid "Enable SEO Settings Submenu?"
+msgstr ""
+
+#: lib/admin/user-meta.php:84
+msgid "Enable Import/Export Submenu?"
+msgstr ""
+
+#: lib/admin/user-meta.php:119
+msgid "Author Archive Settings"
+msgstr ""
+
+#: lib/admin/user-meta.php:120 lib/admin/user-meta.php:183
+#: lib/admin/user-meta.php:247
+msgid "These settings apply to this author's archive pages."
+msgstr ""
+
+#: lib/admin/user-meta.php:124
+msgid "Custom Archive Headline"
+msgstr ""
+
+#: lib/admin/user-meta.php:127
+msgid "Will display in the %s tag at the top of the first page"
+msgstr ""
+
+#: lib/admin/user-meta.php:132
+msgid "Custom Description Text"
+msgstr ""
+
+#: lib/admin/user-meta.php:135
+msgid "This text will be the first paragraph, and display on the first page"
+msgstr ""
+
+#: lib/admin/user-meta.php:140
+msgid "Author Box"
+msgstr ""
+
+#: lib/admin/user-meta.php:143
+msgid "Enable Author Box on this User's Posts?"
+msgstr ""
+
+#: lib/admin/user-meta.php:145
+msgid "Enable Author Box on this User's Archives?"
+msgstr ""
+
+#: lib/admin/whats-new.php:38
+msgid "Welcome to Genesis %s"
+msgstr ""
+
+#: lib/admin/whats-new.php:65
+msgid "Thank you for updating to the latest version! Using Genesis %s will give you more options than you've ever had and your website will continue to purr like a kitten."
+msgstr ""
+
+#: lib/admin/whats-new.php:68
+msgid "What&#8217;s New"
+msgstr ""
+
+#: lib/admin/whats-new.php:71
+msgid "Updated Design and Wider Layout"
+msgstr ""
+
+#: lib/admin/whats-new.php:72
+msgid "You may notice that the default Genesis stylesheet is a bit shorter, and on the front end looks different. We've updated the default design and extended the width of the layout to 1152px. Now you've got more real estate to showcase your content."
+msgstr ""
+
+#: lib/admin/whats-new.php:73
+msgid "Updated Security Audit"
+msgstr ""
+
+#: lib/admin/whats-new.php:74
+msgid "It's very important to us that we provide you the absolute best framework possible, so once again we hired WordPress Lead Developer Mark Jaquith to perform a full review of code for security as he's done in the past."
+msgstr ""
+
+#: lib/admin/whats-new.php:75
+msgid "Google Author Highlights"
+msgstr ""
+
+#: lib/admin/whats-new.php:76
+msgid "Genesis now offers support for author highlighting. This allows Google to associate your content with your Google+ content. Just edit your profile, find the field where you can enter your Google+ account URL, and save. Genesis does the rest. And if you want to associate an author with the homepage, you can do that in SEO Settings."
+msgstr ""
+
+#: lib/admin/whats-new.php:78
+msgid "Deprecating Widgets"
+msgstr ""
+
+#: lib/admin/whats-new.php:79
+msgid "Genesis has always included some useful widgets to help you build your sites faster and easier. But lately, we realized that some of these widgets should really be plugins, so authors can push out updates more frequently, and you get more up to date code. So, the  \"eNews & Updates\" and \"Latest Tweets\" widgets are being ported to plugins, and will eventually be removed from Genesis."
+msgstr ""
+
+#: lib/admin/whats-new.php:81
+msgid "Genesis Category/Page Menu Widgets Removed"
+msgstr ""
+
+#: lib/admin/whats-new.php:82
+msgid "We deprecated the Category and Page menu widgets a few releases ago, and as of this release, we've completely removed them from the framework. If you were still using either of these widgets, you will notice that your menu is no longer showing."
+msgstr ""
+
+#: lib/admin/whats-new.php:83
+msgid "You will need to build a <a href=\"%s\">custom menu</a> and add the custom menu widget to the Header Right widget area."
+msgstr ""
+
+#: lib/admin/whats-new.php:85
+msgid "Other Geeky Stuff"
+msgstr ""
+
+#: lib/admin/whats-new.php:86
+msgid "We also fixed a lot of little bugs, improved some things, and generally made the framework a more solid foundation for you to use. We hope you enjoy this latest release!"
+msgstr ""
+
+#: lib/admin/whats-new.php:91
+msgid "Genesis 2.0 Roadmap"
+msgstr ""
+
+#: lib/admin/whats-new.php:93
+msgid "Support for HTML5 Markup"
+msgstr ""
+
+#: lib/admin/whats-new.php:94
+msgid "We have big plans for a new markup structure in Genesis 2.0, all built with HTML5."
+msgstr ""
+
+#: lib/admin/whats-new.php:96
+msgid "A New Mobile Strategy"
+msgstr ""
+
+#: lib/admin/whats-new.php:97
+msgid "In case you can't tell, we're big fans of designing for mobile devices around here. So, we're going to be doing some things that will make it a whole lot easier to get your site mobile ready with Genesis in 2.0."
+msgstr ""
+
+#: lib/admin/whats-new.php:103
+msgid "Project Leads"
+msgstr ""
+
+#: lib/admin/whats-new.php:109 lib/admin/whats-new.php:114
+#: lib/admin/whats-new.php:119
+msgid "Lead Developer"
+msgstr ""
+
+#: lib/admin/whats-new.php:127
+msgid "Contributors"
+msgstr ""
+
+#: lib/admin/whats-new.php:133 lib/admin/whats-new.php:138
+#: lib/admin/whats-new.php:143 lib/admin/whats-new.php:148
+#: lib/admin/whats-new.php:153 lib/admin/whats-new.php:158
+#: lib/admin/whats-new.php:163 lib/admin/whats-new.php:168
+#: lib/admin/whats-new.php:173 lib/admin/whats-new.php:178
+msgid "Contributor"
+msgstr ""
+
+#: lib/admin/whats-new.php:185
+msgid "Go to Theme Settings &rarr;"
+msgstr ""
+
+#: lib/admin/whats-new.php:186
+msgid "Go to SEO Settings &rarr;"
+msgstr ""
+
+#: lib/classes/admin.php:118
+msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
+msgstr ""
+
+#: lib/classes/admin.php:415 lib/classes/admin.php:424
+#: lib/classes/admin.php:527 lib/classes/admin.php:546
+msgid "Are you sure you want to reset?"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:54 lib/functions/menu.php:133
+msgid "Home"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:63
+msgid "You are here: "
+msgstr ""
+
+#: lib/classes/breadcrumb.php:64 lib/classes/breadcrumb.php:65
+#: lib/classes/breadcrumb.php:66 lib/classes/breadcrumb.php:67
+#: lib/classes/breadcrumb.php:69 lib/classes/breadcrumb.php:70
+msgid "Archives for "
+msgstr ""
+
+#: lib/classes/breadcrumb.php:68
+msgid "Search for "
+msgstr ""
+
+#: lib/classes/breadcrumb.php:71
+msgid "Not found: "
+msgstr ""
+
+#: lib/classes/breadcrumb.php:120 lib/classes/breadcrumb.php:215
+#: lib/classes/breadcrumb.php:281
+msgid "View %s"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:300
+msgid "View all posts in %s"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:321
+msgid "View all %s"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:403 lib/classes/breadcrumb.php:427
+msgid "View archives for %s"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:433
+msgid "View archives for %s %s"
+msgstr ""
+
+#: lib/classes/breadcrumb.php:525
+msgid "View all items in %s"
+msgstr ""
+
+#: lib/functions/admin.php:15
+msgid "This file no longer needs to be included."
+msgstr ""
+
+#: lib/functions/formatting.php:292
+msgctxt "time difference"
+msgid "seconds"
+msgstr ""
+
+#: lib/functions/formatting.php:296
+msgctxt "time difference"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:297
+msgctxt "time difference"
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:298
+msgctxt "time difference"
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:299
+msgctxt "time difference"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:300
+msgctxt "time difference"
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:301
+msgctxt "time difference"
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:302
+msgctxt "time difference"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/functions/formatting.php:327
+msgctxt "separator in time difference"
+msgid "and"
+msgstr ""
+
+#: lib/functions/layout.php:37
+msgid "Content-Sidebar"
+msgstr ""
+
+#: lib/functions/layout.php:46
+msgid "Sidebar-Content"
+msgstr ""
+
+#: lib/functions/layout.php:54
+msgid "Content-Sidebar-Sidebar"
+msgstr ""
+
+#: lib/functions/layout.php:62
+msgid "Sidebar-Sidebar-Content"
+msgstr ""
+
+#: lib/functions/layout.php:70
+msgid "Sidebar-Content-Sidebar"
+msgstr ""
+
+#: lib/functions/layout.php:78
+msgid "Full Width Content"
+msgstr ""
+
+#: lib/functions/layout.php:123
+msgid "No Label Selected"
+msgstr ""
+
+#: lib/functions/menu.php:104
+msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
+msgstr ""
+
+#: lib/functions/seo.php:122
+msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
+msgstr ""
+
+#: lib/functions/seo.php:124
+msgid "Dismiss"
+msgstr ""
+
+#: lib/functions/upgrade.php:411
+msgid "Congratulations! You are now rocking Genesis %s"
+msgstr ""
+
+#: lib/functions/upgrade.php:436
+msgid "Click here to complete the upgrade"
+msgstr ""
+
+#: lib/functions/upgrade.php:461
+msgid "Genesis %s is available. <a href=\"%s\" class=\"thickbox thickbox-preview\">Check out what's new</a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update now</a>."
+msgstr ""
+
+#: lib/functions/upgrade.php:465
+msgid "Upgrading Genesis will overwrite the current installed version of Genesis. Are you sure you want to upgrade?. \"Cancel\" to stop, \"OK\" to upgrade."
+msgstr ""
+
+#: lib/functions/upgrade.php:507
+msgid "Genesis %s is available for %s"
+msgstr ""
+
+#: lib/functions/upgrade.php:508
+msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
+msgstr ""
+
+#: lib/functions/widgetize.php:63
+msgid "Header Left"
+msgstr ""
+
+#: lib/functions/widgetize.php:63
+msgid "Header Right"
+msgstr ""
+
+#: lib/functions/widgetize.php:64
+msgid "This is the widget area in the header."
+msgstr ""
+
+#: lib/functions/widgetize.php:71
+msgid "Primary Sidebar"
+msgstr ""
+
+#: lib/functions/widgetize.php:72
+msgid "This is the primary sidebar if you are using a two or three column site layout option."
+msgstr ""
+
+#: lib/functions/widgetize.php:79
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: lib/functions/widgetize.php:80
+msgid "This is the secondary sidebar if you are using a three column site layout option."
+msgstr ""
+
+#: lib/functions/widgetize.php:112
+msgid "Footer %d"
+msgstr ""
+
+#: lib/functions/widgetize.php:113
+msgid "Footer %d widget area."
+msgstr ""
+
+#: lib/init.php:47
+msgid "Primary Navigation Menu"
+msgstr ""
+
+#: lib/init.php:48
+msgid "Secondary Navigation Menu"
+msgstr ""
+
+#: lib/js/load-scripts.php:89
+msgid "Select / Deselect All"
+msgstr ""
+
+#: lib/shortcodes/footer.php:41
+msgid "Return to top of page"
+msgstr ""
+
+#: lib/shortcodes/footer.php:176
+msgid "by "
+msgstr ""
+
+#: lib/shortcodes/footer.php:241
+msgid "Log in"
+msgstr ""
+
+#: lib/shortcodes/footer.php:243
+msgid "Log out"
+msgstr ""
+
+#: lib/shortcodes/post.php:43
+msgid "ago"
+msgstr ""
+
+#: lib/shortcodes/post.php:140
+msgid "Visit %s&#x02019;s website"
+msgstr ""
+
+#: lib/shortcodes/post.php:205 lib/widgets/featured-page-widget.php:101
+msgid "% Comments"
+msgstr ""
+
+#: lib/shortcodes/post.php:206 lib/widgets/featured-page-widget.php:101
+msgid "1 Comment"
+msgstr ""
+
+#: lib/shortcodes/post.php:207 lib/widgets/featured-page-widget.php:101
+msgid "Leave a Comment"
+msgstr ""
+
+#: lib/shortcodes/post.php:247
+msgid "Tagged With: "
+msgstr ""
+
+#: lib/shortcodes/post.php:282 lib/shortcodes/post.php:320
+msgid "Filed Under: "
+msgstr ""
+
+#: lib/shortcodes/post.php:364 lib/structure/comments.php:187
+#: lib/structure/post.php:207 lib/widgets/featured-page-widget.php:103
+msgid "(Edit)"
+msgstr ""
+
+#: lib/structure/comments.php:61
+msgid "<h3>Comments</h3>"
+msgstr ""
+
+#: lib/structure/comments.php:112
+msgid "<h3>Trackbacks</h3>"
+msgstr ""
+
+#: lib/structure/comments.php:182
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+msgstr ""
+
+#: lib/structure/comments.php:182
+msgid "says"
+msgstr ""
+
+#: lib/structure/comments.php:186
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: lib/structure/comments.php:193
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/structure/comments.php:250
+msgid "Name"
+msgstr ""
+
+#: lib/structure/comments.php:256
+msgid "Email"
+msgstr ""
+
+#: lib/structure/comments.php:262
+msgid "Website"
+msgstr ""
+
+#: lib/structure/comments.php:276
+msgid "Speak Your Mind"
+msgstr ""
+
+#: lib/structure/footer.php:110
+msgid "Copyright"
+msgstr ""
+
+#: lib/structure/footer.php:110
+msgid "on"
+msgstr ""
+
+#: lib/structure/loops.php:192
+msgid "Read more"
+msgstr ""
+
+#: lib/structure/menu.php:35
+msgid "Mobile Navigation Menu"
+msgstr ""
+
+#: lib/structure/menu.php:162
+msgid "Comments"
+msgstr ""
+
+#: lib/structure/post.php:214 lib/structure/post.php:216
+msgid "[Read more...]"
+msgstr ""
+
+#: lib/structure/post.php:233
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: lib/structure/post.php:259 lib/widgets/featured-page-widget.php:98
+msgid "by"
+msgstr ""
+
+#: lib/structure/post.php:334
+msgid "About"
+msgstr ""
+
+#: lib/structure/post.php:379
+msgid "Older Posts"
+msgstr ""
+
+#: lib/structure/post.php:380
+msgid "Newer Posts"
+msgstr ""
+
+#: lib/structure/post.php:400 lib/structure/post.php:462
+msgid "Previous Page"
+msgstr ""
+
+#: lib/structure/post.php:401 lib/structure/post.php:492
+msgid "Next Page"
+msgstr ""
+
+#: lib/structure/search.php:23
+msgid "Search this website"
+msgstr ""
+
+#: lib/structure/search.php:25
+msgid "Search"
+msgstr ""
+
+#: lib/structure/sidebar.php:24
+msgid "Primary Sidebar Widget Area"
+msgstr ""
+
+#: lib/structure/sidebar.php:27
+msgid "This is the Primary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr ""
+
+#: lib/structure/sidebar.php:45
+msgid "Secondary Sidebar Widget Area"
+msgstr ""
+
+#: lib/structure/sidebar.php:48
+msgid "This is the Secondary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr ""
+
+#: lib/tools/post-templates.php:132
+msgid "Single Post Template"
+msgstr ""
+
+#: lib/tools/post-templates.php:157
+msgid "Post Template"
+msgstr ""
+
+#: lib/tools/post-templates.php:162
+msgid "Some themes have custom templates you can use for single posts that might have additional features or custom layouts. If so, you will see them above."
+msgstr ""
+
+#: lib/widgets/enews-widget.php:38
+msgid "Enter your email address ..."
+msgstr ""
+
+#: lib/widgets/enews-widget.php:39
+msgid "Go"
+msgstr ""
+
+#: lib/widgets/enews-widget.php:44
+msgid "Displays Feedburner email subscribe form"
+msgstr ""
+
+#: lib/widgets/enews-widget.php:47
+msgid "Genesis - eNews and Updates"
+msgstr ""
+
+#: lib/widgets/enews-widget.php:115 lib/widgets/enews-widget.php:124
+#: lib/widgets/latest-tweets-widget.php:181
+#: lib/widgets/latest-tweets-widget.php:190
+msgid "This widget has been deprecated, and should no longer be used."
+msgstr ""
+
+#: lib/widgets/enews-widget.php:116
+msgid "If you would like to continue to use the eNews widget functionality, please have a site administrator <a href=\"%s\" target=\"_blank\">install this plugin</a> and replace this widget with the Genesis eNews Extended widget."
+msgstr ""
+
+#: lib/widgets/enews-widget.php:125
+msgid "If you would like to continue to use the eNews widget functionality, please <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis eNews Extended\">install this plugin</a> and replace this widget with the Genesis eNews Extended widget."
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:51
+msgid "Displays featured page with thumbnails"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:60
+msgid "Genesis - Featured Page"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:159
+#: lib/widgets/featured-post-widget.php:215
+#: lib/widgets/featured-post-widget.php:251
+#: lib/widgets/featured-post-widget.php:371
+#: lib/widgets/user-profile-widget.php:136
+msgid "Title"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:164
+msgid "Page"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:172
+#: lib/widgets/featured-post-widget.php:301
+msgid "Show Featured Image"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:176
+#: lib/widgets/featured-post-widget.php:305
+msgid "Image Size"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:188
+#: lib/widgets/featured-post-widget.php:317
+msgid "Image Alignment"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:190
+#: lib/widgets/featured-post-widget.php:289
+#: lib/widgets/featured-post-widget.php:319
+#: lib/widgets/user-profile-widget.php:160
+#: lib/widgets/user-profile-widget.php:180
+msgid "None"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:200
+msgid "Show Page Title"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:205
+msgid "Show Page Byline"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:210
+msgid "Show Page Content"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:214
+msgid "Content Character Limit"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:219
+msgid "More Text"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:51
+msgid "By"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:54
+msgid "[Read More...]"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:58
+msgid "More Posts from this Category"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:63
+msgid "Displays featured posts with thumbnails"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:72
+msgid "Genesis - Featured Posts"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:224
+msgid "Category"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:238
+#: lib/widgets/featured-post-widget.php:376
+msgid "Number of Posts to Show"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:243
+msgid "Number of Posts to Offset"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:248
+msgid "Order By"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:250
+msgid "Date"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:252
+msgid "Parent"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:253
+msgid "ID"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:254
+msgid "Comment Count"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:255
+msgid "Random"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:260
+msgid "Sort Order"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:262
+msgid "Descending (3, 2, 1)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:263
+msgid "Ascending (1, 2, 3)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:273
+msgid "Show Author Gravatar"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:277
+#: lib/widgets/user-profile-widget.php:146
+msgid "Gravatar Size"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:279
+msgid "Small (45px)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:280
+msgid "Medium (65px)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:281
+msgid "Large (85px)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:282
+msgid "Extra Large (125px)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:287
+#: lib/widgets/user-profile-widget.php:158
+msgid "Gravatar Alignment"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:335
+msgid "Show Post Title"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:340
+msgid "Show Post Info"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:345
+msgid "Content Type"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:347
+msgid "Show Content"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:348
+msgid "Show Excerpt"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:349
+msgid "Show Content Limit"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:350
+msgid "No Content"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:360
+msgid "More Text (if applicable)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:368
+msgid "To display an unordered list of more posts from this category, please fill out the information below"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:386
+msgid "Show Category Archive Link"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:390
+msgid "Link Text"
+msgstr ""
+
+#: lib/widgets/latest-tweets-widget.php:49
+msgid "Display a list of your latest tweets."
+msgstr ""
+
+#: lib/widgets/latest-tweets-widget.php:58
+msgid "Genesis - Latest Tweets"
+msgstr ""
+
+#: lib/widgets/latest-tweets-widget.php:98
+msgid "The Twitter API is taking too long to respond. Please try again later."
+msgstr ""
+
+#: lib/widgets/latest-tweets-widget.php:101
+msgid "There was an error while attempting to contact the Twitter API. Please try again."
+msgstr ""
+
+#: lib/widgets/latest-tweets-widget.php:104
+msgid "The Twitter API returned an error while processing your request. Please try again."
+msgstr ""
+
+#: lib/widgets/latest-tweets-widget.php:118
+msgid "about %s ago"
+msgstr ""
+
+#: lib/widgets/latest-tweets-widget.php:182
+msgid "If you would like to continue to use the Latest Tweets widget functionality, please have a site administrator <a href=\"%s\" target=\"_blank\">install this plugin</a>."
+msgstr ""
+
+#: lib/widgets/latest-tweets-widget.php:191
+msgid "If you would like to continue to use the Latest Tweets widget functionality, please <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis Latest Tweets\">install this plugin</a>."
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:42
+msgid "Read More"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:48
+msgid "Displays user profile block with Gravatar"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:57
+msgid "Genesis - User Profile"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:96
+msgid "View My Blog Posts"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:141
+msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:149
+msgid "Small"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:149
+msgid "Medium"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:149
+msgid "Large"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:149
+msgid "Extra Large"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:167
+msgid "Select which text you would like to use as the author description"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:170
+msgid "Author Bio"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:172
+msgid "Custom Text (below)"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:173
+msgid "Custom Text Content"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:179
+msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:184
+msgid "Extended page link text"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:190
+msgid "Show Author Archive Link?"
+msgstr ""
+
+#: search.php:28
+msgid "Search Results for:"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Genesis"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://my.studiopress.com/themes/genesis"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The industry standard in design frameworks for WordPress. Please <strong>do not modify</strong> this stylesheet, as it might get overridden in updates."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "StudioPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.studiopress.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Archive"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog"
+msgstr ""

@@ -264,8 +264,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-.breadcrumb {
+h6 {
 	color: #2A5082;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
@@ -274,6 +273,10 @@ h6,
 	margin-bottom: 16px;
 	margin-bottom: 1.6rem;
 	padding: 0;
+}
+
+h1, h2 {
+	font-family: 'Quattrocento';
 }
 
 h1 {
@@ -458,7 +461,7 @@ Structure and Layout
 .content-sidebar-sidebar .content-sidebar-wrap,
 .sidebar-content-sidebar .content-sidebar-wrap,
 .sidebar-sidebar-content .content-sidebar-wrap {
-	width: 835px;
+	width: 885px;
 }
 
 .content-sidebar-sidebar .content-sidebar-wrap {
@@ -486,7 +489,7 @@ Structure and Layout
 .content-sidebar-sidebar .content,
 .sidebar-content-sidebar .content,
 .sidebar-sidebar-content .content {
-	width: 620px;
+	width: 566px;
 }
 
 .full-width-content .content {
@@ -497,7 +500,9 @@ Structure and Layout
 
 .sidebar-primary {
 	float: right;
-	width: 193px;
+	width: 257px;
+	font-size: 14px;
+	font-size: 1.4rem;
 }
 
 .sidebar-content .sidebar-primary,
@@ -509,7 +514,7 @@ Structure and Layout
 
 .sidebar-secondary {
 	float: left;
-	width: 247px;
+	width: 217px;
 }
 
 .content-sidebar-sidebar .sidebar-secondary {
@@ -519,7 +524,10 @@ Structure and Layout
 #respond, #newsletter {
 	padding: 0px;
 	padding: 0rem;
-	background-color: #fff;
+}
+
+#newsletter {
+	text-align: center;
 }
 
 /* Column Classes
@@ -726,6 +734,7 @@ img.alignright,
 	font-size: 36px;
 	font-size: 3.6rem;
 	line-height: 1;
+	font-weight: normal;
 }
 
 .entry-title a,
@@ -745,7 +754,8 @@ img.alignright,
 	margin-bottom: 24px;
 	margin-bottom: 2.4rem;
 	text-transform: uppercase;
-	color: #000;
+	color: #999;
+	font-weight: 200;
 }
 
 .sidebar .widgettitle a {
@@ -872,8 +882,7 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-	background-color: #fff;
-	background: url(images/headerbg.png) repeat-x;
+	background: url(images/headerbg.png) repeat-x #e5f3fa;
 }
 
 .site-header .wrap {
@@ -984,6 +993,17 @@ Site Navigation
 	height: 72px;
 	padding-top: 15px;
 	padding-top: 1.5rem;
+}
+
+.menu-secondary {
+	height: 40px;
+	padding-top: 7px;
+}
+
+.nav-secondary {
+	text-align: center;
+	border-bottom: 1px dotted #2A5082;
+	border-top: 1px dotted #2A5082;
 }
 
 .genesis-nav-menu .menu-item {
@@ -1265,14 +1285,14 @@ Content Area
 }
 
 .entry-comments {
-	padding: 40px;
-	padding: 4rem;
+	padding: 0px;
+	padding: 0rem;
 }
 
 .comment-respond,
 .entry-pings {
-	padding: 40px 40px 16px;
-	padding: 4rem 4rem 1.6rem;
+	padding: 0px 0px 16px;
+	padding: 0rem 0rem 1.6rem;
 }
 
 .comment-respond a,

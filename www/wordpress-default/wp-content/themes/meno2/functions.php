@@ -12,7 +12,7 @@
 include_once( get_template_directory() . '/lib/init.php' );
 
 //* Child theme (do not remove)
-define( 'CHILD_THEME_NAME', 'Meno.Genesis' );
+define( 'CHILD_THEME_NAME', 'Meno.Genesis.2' );
 define( 'CHILD_THEME_URL', 'http://menopaueandu.ca' );
 define( 'CHILD_THEME_VERSION', '2.0.0-beta2' );
 
@@ -36,7 +36,7 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 
 //* Reposition the breadcrumbs
 remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );
-add_action( 'genesis_entry_header', 'genesis_do_breadcrumbs', 10 );
+add_action( 'genesis_entry_header', 'genesis_do_breadcrumbs', 0 );
 
 //* Register newsletter widget area
 genesis_register_sidebar( array(
@@ -59,17 +59,26 @@ function custom_add_newsletter_box() {
 add_action( 'genesis_after_header', 'custom_add_band_box', 10 );
 function custom_add_band_box() {
 	?>
+		<!--
 		<div style="background-color: #F0DBC8">
 			<div class="wrap">
 				<div class="one-half first">
 					a
 				</div>
 				<div class="one-half">
-					b <!--<?php custom_add_newsletter_box(); ?>-->
+					b <?php custom_add_newsletter_box(); ?>
 				</div>
 			</div>
 		</div>
+		-->
 	<?php
 }
 
+//*Filter the breadcrumb trail to remove "You are here"
+add_filter('genesis_breadcrumb_args', 'custom_breadcrumb_args');
+function custom_breadcrumb_args($args) {
+    $args['labels']['prefix'] = ''; //marks the spot
+    $args['sep'] = ' / ';
+    return $args;
+}
 

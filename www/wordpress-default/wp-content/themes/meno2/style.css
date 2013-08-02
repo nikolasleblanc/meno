@@ -264,7 +264,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.breadcrumb {
 	color: #2A5082;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
@@ -457,7 +458,7 @@ Structure and Layout
 .content-sidebar-sidebar .content-sidebar-wrap,
 .sidebar-content-sidebar .content-sidebar-wrap,
 .sidebar-sidebar-content .content-sidebar-wrap {
-	width: 920px;
+	width: 835px;
 }
 
 .content-sidebar-sidebar .content-sidebar-wrap {
@@ -485,7 +486,7 @@ Structure and Layout
 .content-sidebar-sidebar .content,
 .sidebar-content-sidebar .content,
 .sidebar-sidebar-content .content {
-	width: 520px;
+	width: 620px;
 }
 
 .full-width-content .content {
@@ -496,7 +497,7 @@ Structure and Layout
 
 .sidebar-primary {
 	float: right;
-	width: 360px;
+	width: 193px;
 }
 
 .sidebar-content .sidebar-primary,
@@ -508,7 +509,7 @@ Structure and Layout
 
 .sidebar-secondary {
 	float: left;
-	width: 180px;
+	width: 247px;
 }
 
 .content-sidebar-sidebar .sidebar-secondary {
@@ -736,7 +737,7 @@ img.alignright,
 	color: #666;
 }
 
-.widgettitle {
+.widgettitle, .breadcrumb {
 	font-size: 16px;
 	font-size: 1.6rem;
 	letter-spacing: 1px;
@@ -872,11 +873,12 @@ Site Header
 
 .site-header {
 	background-color: #fff;
+	background: url(images/headerbg.png) repeat-x;
 }
 
 .site-header .wrap {
-	padding: 40px 0;
-	padding: 4rem 0;
+	padding: 0px 0;
+	padding: 0rem 0;
 }
 
 /* Title Area
@@ -886,7 +888,7 @@ Site Header
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	float: left;
-	padding: 16px 0;
+	padding: 0px 0;
 	padding: 1.6rem 0;
 	width: 360px;
 }
@@ -936,13 +938,13 @@ Site Header
 /* Logo, hide text */
 
 .header-image .site-header .wrap {
-	background: url(images/logo.png) no-repeat left;
+	background: url(images/badgeLogo.png) no-repeat top left;
 	padding: 0;
 }
 
 .header-image .site-title a {
 	float: left;
-	min-height: 164px;
+	min-height: 0px;
 	width: 100%;
 }
 
@@ -956,8 +958,8 @@ Site Header
 }
 
 .header-image .site-header .widget-area {
-	padding: 40px 0;
-	padding: 4rem 0;
+	padding: 0px 0;
+	padding: 0rem 0;
 }
 
 .site-header .search-form {
@@ -979,19 +981,23 @@ Site Navigation
 	letter-spacing: 0.1rem;
 	line-height: 1.5;
 	width: 100%;
+	height: 72px;
+	padding-top: 15px;
+	padding-top: 1.5rem;
 }
 
 .genesis-nav-menu .menu-item {
 	display: inline-block;
 	text-align: left;
+	margin-right: 10px;
 }
 
 .genesis-nav-menu a {
 	border: none;
 	color: #999;
 	display: block;
-	padding: 28px 24px;
-	padding: 2.8rem 2.4rem;
+	padding: 0px 0px;
+	padding: 0rem 0rem;
 	position: relative;
 }
 
@@ -1007,6 +1013,8 @@ Site Navigation
 
 .genesis-nav-menu > .menu-item > a {
 	text-transform: uppercase;
+	font-size: 14px;
+	font-size: 1.4rem;
 }
 
 .genesis-nav-menu .sub-menu {

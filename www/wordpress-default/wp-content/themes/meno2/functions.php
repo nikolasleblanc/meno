@@ -36,42 +36,36 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 
 //* Reposition the breadcrumbs
 remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );
-//add_action( 'genesis_entry_header', 'genesis_do_breadcrumbs', 0 );
 
-//* Register newsletter widget area
 genesis_register_sidebar( array(
-	'id'		=> 'newsletter',
-	'name'		=> __( 'Newsletter', 'meno' ),
-	'description'	=> __( 'This is the newsletter section.', 'meno' ),
+	'id'				=> 'banner',
+	'name'			=> __( 'Banner', 'meno' ),
+	'description'	=> __( 'This is the banner.', 'meno' ),
 ) );
- 
-//* Add the newsletter widget after the post content
-function custom_add_newsletter_box() {
-	if ( is_singular( 'post' ) )
-	genesis_widget_area( 'newsletter', array(
-		'before' => '<div id="newsletter">',
-		'after' => '</div>'
-	) );
-}
-
-//* Register newsletter widget area
 genesis_register_sidebar( array(
-	'id'		=> 'featureBand',
-	'name'		=> __( 'Feature Band', 'meno' ),
-	'description'	=> __( 'This is the feature band.', 'meno' ),
+	'id'				=> 'newsletter',
+	'name'			=> __( 'Newsletter', 'meno' ),
+	'description'	=> __( 'This is the newsletter.', 'meno' ),
 ) );
 
-//* Add the newsletter widget after the post content
-function custom_add_featureband_box() {
-	if ( is_singular( 'post' ) )
-	genesis_widget_area( 'featureBand', array(
-		'before' => '<div id="wrap">',
-		'after' => '</div>'
-	) );
+function meno_banner_genesis() {
+	
+}
+add_action( 'genesis_after_header', 'meno_banner_genesis', 9 );
+
+add_action( 'genesis_before_content_sidebar_wrap', 'meno_do_big_banner' );
+
+add_action( 'genesis_header', 'meno_do_logo', 6 );
+
+function meno_do_logo() {
+	echo '<img class="logo" src="' . get_bloginfo('stylesheet_directory') . '/images/squarelogo.png"/>';
 }
 
+function meno_do_big_banner() {
+	
+}
 //* Add the band widget after the post content
-add_action( 'genesis_after_header', 'custom_add_band_box', 9 );
+//add_action( 'genesis_after_header', 'custom_add_band_box', 9 );
 function custom_add_band_box() {
 	?>
 		<div style="background-color: #e5f3fa; height: 230px; padding: 25px;">
@@ -103,24 +97,77 @@ function custom_breadcrumb_args($args) {
 
 //*Relocate featured image above post
 remove_action( 'genesis_entry_content', 'genesis_do_post_image' );
-add_action( 'genesis_entry_header', 'meno_do_post_image', 1 );
+add_action( 'genesis_entry_content', 'meno_do_post_image', 0 );
 
 function meno_do_post_image() {
 	$img = genesis_get_image( 
 		array( 
 			'format' => 'html', 
-			'size' => genesis_get_option('image_size'), 
+			'size' => 'feature', 
 			'attr' => array( 'class' => 'aligncenter post-image' ) 
 		) 
 	);
 	printf( '<a title="%s" href="%s">%s</a><div class="clear"></div>', get_permalink(), the_title_attribute('echo=0'), $img );
 }
 
-add_image_size('feature', 566, 125, true);
+add_image_size('feature', 566, 250, true);
 add_image_size('thumb', 256, 70, true);
 
 //* Reposition the secondary navigation menu
-remove_action( 'genesis_after_header', 'genesis_do_subnav' );
-add_action( 'genesis_after_header', 'genesis_do_subnav', 10 );
+//remove_action( 'genesis_after_header', 'genesis_do_subnav' );
+//add_action( 'genesis_after_header', 'genesis_do_subnav', 10 );
 
+/** Show category descriptions */
+function minimum_cat_description () {
+    if (is_category() ) {  
+    	echo '<h4 class="widgettitle">Category archive</h4>';
+    	echo '<h1 class="entry-title" itemprop="headline">' . single_cat_title( null, false ) . '</h1>';      
+        echo category_description( $category-id );
+        echo '<hr style="margin-bottom: 35px;"/>';
+}}
+add_action( 'genesis_before_loop', 'minimum_cat_description'); 
 
+add_action( 'genesis_before_loop', 'meno_do_recent_posts_title' );
+
+function meno_do_recent_posts_title() {
+	if( is_home() ) {
+		echo '<h4 class="widgettitle">Recent posts</h4>';
+	}
+}
+
+genesis_register_sidebar( array(
+'id' => 'home-before',
+'name' => __( 'Home Slider Widget', 'wpsites' ),
+'description' =>  __( 'Content On Home Page Before Posts.', 'wpsites' ),
+) );
+/**
+* @author Brad Dalton - WP Sites
+* @learn more http://wp.me/p1lTu0-9Na
+*/
+add_action( 'genesis_before_content', 'wpsites_home_before_widget', 5 );
+function wpsites_home_before_widget() {
+	if ( is_home() ) {
+		echo '<div class="home-before" style="margin-bottom: 25px; border-bottom: 1px dotted #666;">';
+		dynamic_sidebar( 'home-before' );
+		echo '</div><!-- end .home-before -->';
+ 	}
+}
+
+/**
+ * Genesis Next/Previous Post Navigation (after post, before comments)
+ * 
+ */
+add_action( 'genesis_entry_footer', 'ac_next_prev_post_nav' );
+ 
+function ac_next_prev_post_nav() {
+	
+	if ( is_single() ) {
+ 
+		echo '<div class="loop-nav">';
+		previous_post_link( '<div class="previous">Previous: %link</div>', '%title' );
+		next_post_link( '<div class="next">Next: %link</div>', '%title' );
+		echo '</div><!-- .loop-nav -->';
+ 
+	}
+ 
+}

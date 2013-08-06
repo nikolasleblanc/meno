@@ -63,7 +63,7 @@ $table_prefix = 'wp_';
  */
 define('WPLANG', '');
 
-define( "WP_DEBUG", true );
+define( "WP_DEBUG", false );
 
 
 /* That's all, stop editing! Happy blogging. */

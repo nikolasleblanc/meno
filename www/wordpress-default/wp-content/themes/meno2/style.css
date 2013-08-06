@@ -449,8 +449,24 @@ Structure and Layout
 
 .site-inner {
 	clear: both;
-	padding-top: 40px;
-	padding-top: 4rem;
+}
+
+#bigbanner {
+	height: 200px;
+	background-color: #ccc;
+	margin-bottom: 25px;
+	width: 885px;
+	float: right;
+	margin-top: 15px;
+}
+
+header > div.wrap > img.logo {
+	float: left;
+	position: absolute;
+}
+
+.sidebar-secondary {
+	margin-top: 200px;
 }
 
 /* Column Widths and Positions
@@ -462,6 +478,7 @@ Structure and Layout
 .sidebar-content-sidebar .content-sidebar-wrap,
 .sidebar-sidebar-content .content-sidebar-wrap {
 	width: 885px;
+	margin-top: 25px;
 }
 
 .content-sidebar-sidebar .content-sidebar-wrap {
@@ -797,6 +814,7 @@ Widgets
 }
 
 
+
 /*
 Plugins
 ---------------------------------------------------------------------------------------------------- */
@@ -882,12 +900,13 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-	background: url(images/headerbg.png) repeat-x #e5f3fa;
+	background: url(images/headerbg.png) repeat-x;
 }
 
 .site-header .wrap {
 	padding: 0px 0;
 	padding: 0rem 0;
+	height: 72px;
 }
 
 /* Title Area
@@ -947,7 +966,6 @@ Site Header
 /* Logo, hide text */
 
 .header-image .site-header .wrap {
-	background: url(images/badgeLogo.png) no-repeat top left;
 	padding: 0;
 }
 
@@ -990,13 +1008,12 @@ Site Navigation
 	letter-spacing: 0.1rem;
 	line-height: 1.5;
 	width: 100%;
-	height: 72px;
 	padding-top: 15px;
 	padding-top: 1.5rem;
+	padding-bottom: 15px;
 }
 
 .menu-secondary {
-	height: 40px;
 	padding-top: 7px;
 }
 
@@ -1048,6 +1065,7 @@ Site Navigation
 	transition:         opacity .4s ease-in-out;
 	width: 200px;
 	z-index: 99;
+	font-family: 'Lato', sans-serif;
 }
 
 .genesis-nav-menu .sub-menu a {
@@ -1061,6 +1079,7 @@ Site Navigation
 	padding: 1.6rem 2rem;
 	position: relative;
 	width: 200px;
+	text-transform: uppercase;
 }
 
 .genesis-nav-menu .sub-menu .sub-menu {
@@ -1133,6 +1152,14 @@ Site Navigation
 
 .nav-primary .sub-menu a:hover {
 	color: #333;
+}
+
+.nav-primary > a {
+	margin-right: 15px;
+}
+
+.nav-primary > .wrap {
+	text-align: right;
 }
 
 /* Secondary Navigation
@@ -1397,7 +1424,7 @@ Sidebars
 }
 
 .sidebar .enews-widget {
-	background-color: #333;
+	
 }
 
 
@@ -1486,6 +1513,33 @@ Site Footer
 
 .site-footer p {
 	margin-bottom: 0;
+}
+
+
+
+#banner, #newsletter {
+	height: 250px;
+	text-align: left;
+}
+#newsletter {
+	width: 250px;
+	text-align: left;
+	border: 1px solid #000;
+}
+
+#genesis-slider {
+	border: none !important;
+	padding: 0px !important;
+	height: 250px;
+}
+
+.genesis_slider {
+	float: right;
+}
+
+.content ul {
+	margin-left: 35px;
+	margin-bottom: 25px;
 }
 
 
@@ -1651,6 +1705,11 @@ Media Queries
 	h4.widgettitle {
 		margin-top: 40px;
 		margin-top: 4.0rem;
+	}
+
+	#genesis-slider h2 {
+		font-size: 14px;
+		font-size: 1.4rem;
 	}
 
 }
